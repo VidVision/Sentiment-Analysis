@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./lib/d3.v5.min.js"></script>
+    <script src="./lib/d3-tip.min.js"></script>
+    <script src="./lib/d3-legend.min.js"></script>
+    <script src="./lib/d3.layout.cloud.js"></script>
+    <style type="text/css">
+        .d3-tip {
+            color: black;
+            background: rgba(255, 255, 255, 0.8);
+            /*border-radius: 4px;*/
+            border: 2px solid #444;
+            font-size: 16px;
+            line-height: 1;
+            position: relative;
+            pointer-events: all;
+            padding: 6px;
+            font-family: "Arial";
+        }
+
+        .pane {
+            outline: thin solid black;
+            background-color: rgba(240, 248, 255, 1);
+            width: 1344px;
+        }
+
+        .subtitle {
+            font-family: "Arial";
+            font-size: 25px;
+            width: 1344px;
+        }
+
+        .description {
+            font-family: "Arial";
+            margin: 20px;
+            width: 1300px;
+        }
+
+        .quarter {
+            font-family: "Arial";
+        }
+
+        body {
+            background-color: rgba(204, 204, 204, 1);
+        }
+    </style>
+    <title>CSE6242 - Project</title>
+</head>
+<body>
+    <p class="subtitle">Lodging Review Sentiment (Positive, Negative & Neutral) of Select US Cities by Quarter</p>
+    <div class="pane">
+        <div id="map1"></div>
+        <input type="range" min="1" max="13" value="1" class="slider" id="quarterRange1" oninput="quarterUpdate1(value)">
+        <output for="quarterRange1" id="quarter1" class="quarter">2018Q1</output>
+    </div>
+    <br/>
+    <p class="description">Using the slider in the bottom left corner of the map, you may select a quarter, of which
+    the points on the map can be hovered over with your cursor to show a tooltip containing information about the
+    selected city.  The information contained in the tooltip is the overall positive sentiment of reviews for the
+    selected city during the selected quarter, followed by a visual of the total positive, negative, and neutral
+    reviews. A similar chart is shown in the lower right corner of the map, displaying the overall sentiment of the
+    United States as a whole during the selected quarter.</p>
+    <br/>
+    <hr class="solid">
+    <br/>
+    <p class="subtitle">Total Review Count by Quarter of Select US Cities </p>
+    <div class="pane">
+        <div id="map2"></div>
+        <input type="range" min="1" max="13" value="1" class="slider" id="quarterRange2" oninput="quarterUpdate2(value)">
+        <output for="quarterRange2" id="quarter2" class="quarter">2018Q1</output>
+    </div>
+    <br/>
+    <p class="description">Using the slider in the bottom left corner of the map, you may select a quarter, of which
+    the points on the map can be hovered over with your cursor to show a tooltip containing information about the
+    selected city.  The information contained in the tooltip is the total amount of reviews for the selected city
+    during the selected quarter.  The radius of the point representing the city is sized linearly based on the total
+    amount of reviews during the selected quarter.  A legend is provided in the bottom right corner to allow one to
+    "eyeball" the size of the point relative to the amount of reviews.  Also, above the legend, a total of all the
+    reviews in the United States is displayed for a selected quarter.</p>
+    <br/>
+    <hr class="solid">
+    <br/>
+    <p class="subtitle">Top 5 Selected Words of Top 5 Topics by Quarter of Select US Cities</p>
+    <div class="pane">
+        <div id="map3"></div>
+        <input type="range" min="1" max="13" value="1" class="slider" id="quarterRange3" oninput="quarterUpdate3(value)">
+        <output for="quarterRange3" id="quarter3" class="quarter">2018Q1</output>
+    </div>
+    <br/>
+    <p class="description">Using the slider in the bottom left corner of the map, you may select a quarter, of which
+    the points on the map can be hovered over with your cursor to show a tooltip containing information about the
+    selected city.  The information contained in the tooltip is a word cloud generated from the LDA topic data
+    created during analysis of all reviews.  The words shown in the word cloud are the top 5 words from the top 5 topics
+    created during the LDA analysis.  Additionally, the larger the word the more important to topic, as well as color
+    is used to combine words from the same topic.  A key is provided in the lower right corner specifying which color
+    is associated to which topic.  The most important topic is at the top, while least import is at the bottom.</p>
+</body>
+<script type="text/javascript">
+    let review_object = {}
+    let file_data = []
+    let map1_totals = {}
+
+    // Projection scale of 1000 uses width of 960 and height of 500
+
+    let width = 1344
+    let height = 700
+
+    let projection1 = d3.geoAlbersUsa()
+                        .translate([width/2, height/2])
+                        .scale([1400])
+
+    let path1 = d3.geoPath()
+                  .projection(projection1)
+
+    let svg1 = d3.select('body #map1')
+                 .append('svg')
+                 .attr('width', width)
+                 .attr('height', height)
+
+    let tool_tip1 = d3.tip()
+                      .attr('class', 'd3-tip')
+
+    svg1.call(tool_tip1)
+
+    let projection2 = d3.geoAlbersUsa()
+                        .translate([width/2, height/2])
+                        .scale([1400])
+
+    let path2 = d3.geoPath()
+                  .projection(projection2)
+
+    let svg2 = d3.select('body #map2')
+                 .append('svg')
+                 .attr('width', width)
+                 .attr('height', height)
+
+    let tool_tip2 = d3.tip()
+                      .attr('class', 'd3-tip')
+
+    svg2.call(tool_tip2)
+
+    let projection3 = d3.geoAlbersUsa()
+                        .translate([width/2, height/2])
+                        .scale([1400])
+
+    let path3 = d3.geoPath()
+                  .projection(projection3)
+
+    let svg3 = d3.select('body #map3')
+                 .append('svg')
+                 .attr('width', width)
+                 .attr('height', height)
+
+    let tool_tip3 = d3.tip()
+                      .attr('class', 'd3-tip')
+
+    svg3.call(tool_tip3)
+
+    let map1_total = d3.tip()
+                       .attr('class', 'd3-tip')
+                       .attr('class', 'map1-total')
+
+    svg1.call(map1_total)
+
+    let map1_total_background = svg1.append('rect')
+                        .attr('width', 212)
+                        .attr('height', 292)
+                        .attr('transform', 'translate(1104, 408)')
+                        .attr('fill', 'white')
+                        .attr('stroke', 'black')
+
+    let map2_legend_background = svg2.append('rect')
+                                     .attr('width', 222)
+                                     .attr('height', 156)
+                                     .attr('transform', 'translate(1124,544)')
+                                     .attr('fill', 'white')
+                                     .attr('stroke', 'black')
+
+    let map2_total_background = svg2.append('rect')
+                                    .attr('width', 200)
+                                    .attr('height', 100)
+                                    .attr('transform', 'translate(1134, 434)')
+                                    .attr('fill', 'white')
+                                    .attr('stroke', 'black')
+
+    let map3_legend_background = svg3.append('rect')
+                                     .attr('width', 242)
+                                     .attr('height', 156)
+                                     .attr('transform', 'translate(1124,544)')
+                                     .attr('fill', 'white')
+                                     .attr('stroke', 'black')
+
+    let formatComma = d3.format(',')
+
+    Promise.all([
+        // Found @ https://blockbuilder.org/zmeers/cbae36d73e8ac7f206017f0e263fcbbe
+        d3.json('./data/us-states.json'),
+        // Recorded from Google search engine
+        d3.csv('./data/us-cities.csv'),
+        d3.csv('./data/vaderCityQ.csv'),
+        d3.csv('./data/ldaCityQ.csv'),
+        d3.csv('./data/ldaTopics.csv')
+    ]).then(function(data) {
+        file_data = data
+
+        create_map1(data)
+        create_map2(data)
+        create_map3(data)
+    })
+
+    const quarter_enum =  {"1": "2018Q1",
+                           "2": "2018Q2",
+                           "3": "2018Q3",
+                           "4": "2018Q4",
+                           "5": "2019Q1",
+                           "6": "2019Q2",
+                           "7": "2019Q3",
+                           "8": "2019Q4",
+                           "9": "2020Q1",
+                           "10": "2020Q2",
+                           "11": "2020Q3",
+                           "12": "2020Q4",
+                           "13": "2021Q1"}
+
+    function create_map1(data) {
+        map1_totals = get_map1_totals(data[2])
+
+        svg1.selectAll('path')
+            .data(data[0].features)
+            .enter()
+            .append('path')
+            .attr('d', path1)
+            .style('stroke', 'black')
+            .style('stroke-width', '1')
+            .style('fill', 'white')
+
+        svg1.selectAll('circle')
+            .data(data[1])
+            .enter()
+            .append('circle')
+            .attr('cx', function(d) {
+                return projection1([d['long'], d['lat']])[0]
+            })
+            .attr('cy', function(d) {
+                return projection1([d['long'], d['lat']])[1]
+            })
+            .attr('r', function(d) {
+                return 5
+            })
+            .style('fill', 'rgba(43, 140, 190, 0.7)')
+            .style('stroke', 'rgba(4, 90, 141, 1)')
+            .on("mouseenter", function(d) {
+                let data_display_index = find_index(data[2], d['city'], get_quarter())
+
+                let positive_percent = calculate_positive_percent(data[2], data_display_index)
+
+                tool_tip1.html(function() {
+                    let comma = ""
+                    if(d.state.length !== 0) {
+                        comma = ", "
+                    }
+
+                    return '<p><b>' + d['city'] + comma + d.state + '</b></p>' +
+                           '<p>Positive: ' + positive_percent + '%</p>' +
+                           '<div id="toolTipDiv1"></div>'
+                })
+                .show()
+
+                if(d3.event.pageX > 1035) {
+                    tool_tip1.style("left", (d3.event.pageX - 225) + "px")
+                } else {
+                    tool_tip1.style("left", (d3.event.pageX + 10) + "px")
+                }
+
+                if(d3.event.pageY > 410) {
+                    tool_tip1.style("top", (d3.event.pageY - 307) + "px")
+                } else {
+                    tool_tip1.style("top", (d3.event.pageY + 5) + "px")
+                }
+
+                draw_pie_chart(data[2], data_display_index)
+            })
+            .on("mousemove", function(d) {
+                if(d3.event.pageX > 1035) {
+                    tool_tip1.style("left", (d3.event.pageX - 225) + "px")
+                } else {
+                    tool_tip1.style("left", (d3.event.pageX + 10) + "px")
+                }
+
+                if(d3.event.pageY > 410) {
+                    tool_tip1.style("top", (d3.event.pageY - 307) + "px")
+                } else {
+                    tool_tip1.style("top", (d3.event.pageY + 5) + "px")
+                }
+            })
+            .on("mouseleave", function(d) {
+                tool_tip1.hide()
+            })
+
+        create_map1_total(map1_totals)
+    }
+
+    function create_map2(data) {
+        review_object = create_review_object(data[1], data[2])
+
+        svg2.selectAll('path')
+            .data(data[0].features)
+            .enter()
+            .append('path')
+            .attr('d', path2)
+            .style('stroke', 'black')
+            .style('stroke-width', '1')
+            .style('fill', 'white')
+
+        create_city_circles(data[1])
+        create_map2_legend()
+        create_map2_total()
+    }
+
+    function create_map3(data) {
+        svg3.selectAll('path')
+            .data(data[0].features)
+            .enter()
+            .append('path')
+            .attr('d', path3)
+            .style('stroke', 'black')
+            .style('stroke-width', '1')
+            .style('fill', 'white')
+
+        let default_topics = ['Topic 1', 'Topic 2', 'Topic 3', 'Topic 4', 'Topic 5']
+
+        svg3.selectAll('circle')
+            .data(data[1])
+            .enter()
+            .append('circle')
+            .attr('cx', function(d) {
+                return projection3([d['long'], d['lat']])[0]
+            })
+            .attr('cy', function(d) {
+                return projection3([d['long'], d['lat']])[1]
+            })
+            .attr('r', function(d) {
+                return 5
+            })
+            .style('fill', 'rgba(43, 140, 190, 0.7)')
+            .style('stroke', 'rgba(4, 90, 141, 1)')
+            .on("mouseenter", function(d) {
+                tool_tip3.html(function() {
+                    let comma = ""
+                    if(d.state.length !== 0) {
+                        comma = ", "
+                    }
+
+                    return '<p><b>' + d['city'] + comma + d.state + '</b></p>' +
+                        '<div id="toolTipDiv3"></div>'})
+                    .show()
+
+                if(d3.event.pageX > 1035) {
+                    tool_tip3.style("left", (d3.event.pageX - 280) + "px")
+                } else {
+                    tool_tip3.style("left", (d3.event.pageX + 10) + "px")
+                }
+
+                if(d3.event.pageY > 2339) {
+                    tool_tip3.style("top", (d3.event.pageY - 325) + "px")
+                } else {
+                    tool_tip3.style("top", (d3.event.pageY + 10) + "px")
+                }
+
+                create_word_cloud(d['city'], data[1], data[3], data[4])
+            })
+            .on("mousemove", function(d) {
+                if(d3.event.pageX > 1035) {
+                    tool_tip3.style("left", (d3.event.pageX - 280) + "px")
+                } else {
+                    tool_tip3.style("left", (d3.event.pageX + 10) + "px")
+                }
+
+                if(d3.event.pageY > 2339) {
+                    tool_tip3.style("top", (d3.event.pageY - 325) + "px")
+                } else {
+                    tool_tip3.style("top", (d3.event.pageY + 10) + "px")
+                }
+            })
+            .on("mouseleave", function(d) {
+                tool_tip3.hide()
+                create_map3_legend(default_topics)
+            })
+
+        create_map3_legend(default_topics)
+    }
+
+    function quarterUpdate1(val) {
+        document.getElementById("quarter1").value = quarter_enum[val]
+        d3.select('.legend-US').remove()
+        d3.select('.legend-percent').remove()
+        d3.select('.legend-chart').remove()
+        d3.select('.legend').remove()
+        create_map1_total(map1_totals)
+    }
+
+    function quarterUpdate2(val) {
+        document.getElementById("quarter2").value = quarter_enum[val]
+        change_cities_radius()
+
+        svg2.select('.text-total').remove()
+        svg2.select('.review-total').remove()
+        create_map2_total()
+    }
+
+    function quarterUpdate3(val) {
+        document.getElementById("quarter3").value = quarter_enum[val]
+    }
+
+    function create_map3_legend(topics) {
+        let legend_data = d3.scaleOrdinal()
+            .domain(topics)
+            .range(['rgba(8, 104, 172, 1)', 'rgba(227, 74, 51, 1)', 'rgba(116, 196, 118, 1)', 'rgba(117, 107, 177, 1)', 'black'])
+
+        svg3.append("g")
+            .attr("class", "legend")
+            .attr("transform", "translate(1144,574)")
+
+        let legend = d3.legendColor()
+                       .scale(legend_data);
+
+        svg3.select(".legend")
+            .call(legend);
+    }
+
+    function create_map2_total() {
+        svg2.append('text')
+            .text('United States')
+            .attr('transform', 'translate(1142, 472)')
+            .style('font-family', 'Arial')
+            .style('font-weight', 'bold')
+            .attr('class', 'text-total')
+
+        let total = 0
+
+        Object.keys(review_object).forEach(function(d) {
+            total += parseInt(review_object[d][document.getElementById('quarterRange2').value])
+        })
+
+        svg2.append('text')
+            .text('Review Total: ' + formatComma(total))
+            .attr('transform', 'translate(1142, 506)')
+            .style('font-family', 'Arial')
+            .attr('class', 'review-total')
+    }
+
+    function create_map2_legend() {
+        // Legend code derived from https://www.d3-graph-gallery.com/graph/bubble_legend.html
+
+        // Add legend: circles
+        var valuesToShow = [10000, 50000, 100000]
+        var xCircle = 1274
+        var xLabel = xCircle - 130 // xCircle - 130
+        var yCircle = 672 // xCircle + 100
+
+        svg2
+            .selectAll("legend")
+            .data(valuesToShow)
+            .enter()
+            .append("circle")
+            .attr("cx", xCircle)
+            .attr("cy", function(d){ return yCircle - d*0.0005 } )
+            .attr("r", function(d){ return d*0.0005 })
+            .style("fill", "none")
+            .attr("stroke", "black")
+
+        // Add legend: segments
+        svg2
+            .selectAll("legend")
+            .data(valuesToShow)
+            .enter()
+            .append("line")
+            .attr('x1', function(d){ return xCircle - d*0.0005 } )
+            .attr('x2', xLabel + 30)
+            .attr('y1', function(d){ return yCircle - d*0.0005 } )
+            .attr('y2', function(d){ return yCircle - d*0.0005 } )
+            .attr('stroke', 'black')
+            .style('stroke-dasharray', ('2,2'))
+
+        // Add legend: labels
+        svg2
+            .selectAll("legend")
+            .data(valuesToShow)
+            .enter()
+            .append("text")
+            .attr('x', function(d) {
+                if(d === 100000) {
+                    return xLabel - 5
+                }
+                return xLabel
+            })
+            .attr('y', function(d){ return yCircle - d*0.0005 } )
+            .text( function(d){ return formatComma(d) } )
+            .style("font-size", 10)
+            .attr('alignment-baseline', 'middle')
+    }
+
+    function get_map1_totals(data) {
+        let return_object = {}
+
+        for(let i = 0, index = 1; i < ( data.length / 21 ); i += 3, index++) {
+            let pos = 0, neg = 0, neu = 0
+
+            for(let j = i; j < data.length; j += 39) {
+                pos += parseInt(data[j].frequency)
+                neg += parseInt(data[j+1].frequency)
+                neu += parseInt(data[j+2].frequency)
+            }
+
+            return_object[index] = {"pos": pos, "neg": neg, "neu": neu}
+        }
+
+        return return_object
+    }
+
+    function create_map1_total(data) {
+        let index = document.getElementById('quarterRange1').value
+
+        let positive_percent = Number((parseInt(data[index].pos) / (parseInt(data[index].pos) + parseInt(data[index].neg) +
+            parseInt(data[index].neu))) * 100).toFixed(1)
+
+        svg1.append('text')
+            .text('United States')
+            .attr('transform', 'translate(1110,444)')
+            .style('font-family', 'Arial')
+            .style('font-weight', 'bold')
+            .attr('class', 'legend-US')
+
+        svg1.append('text')
+            .text(function() {
+                return 'Positive: ' + positive_percent + '%'
+            })
+            .attr('transform', 'translate(1110, 476)')
+            .style('font-family', 'Arial')
+            .attr('class', 'legend-percent')
+
+
+
+        let label_data = [parseInt(data[index].pos),
+            parseInt(data[index].neg),
+            parseInt(data[index].neu)]
+
+        let pie_width = 200
+
+        let outer_radius = pie_width / 2
+        let inner_radius = pie_width / 3
+
+        let pie_chart = d3.pie()
+
+        let arc = d3.arc()
+            .innerRadius(inner_radius)
+            .outerRadius(outer_radius)
+
+        let arcs = svg1.selectAll('g.arc')
+            .data(pie_chart(label_data))
+            .enter()
+            .append('g')
+            .attr('class', 'arc')
+            .attr('transform', 'translate(1210, 594)')
+            .attr('class', 'legend-chart')
+
+        arcs.append('path')
+            .attr('fill', function (d, i) {
+                if (i === 0) {
+                    return 'rgba(8, 104, 172, 1)'
+                } else if (i === 1) {
+                    return 'rgba(227, 74, 51, 1)'
+                } else if (i === 2) {
+                    return 'rgba(204, 204, 204, 1)'
+                }
+            })
+            .attr('d', arc)
+
+        svg1.append('g')
+            .attr('class', 'legend')
+            .attr('transform', 'translate(1177,561)')
+
+        let legend_data = d3.scaleOrdinal()
+            .domain(['Positive', 'Negative', 'Neutral'])
+            .range(['rgba(8, 104, 172, 1)', 'rgba(227, 74, 51, 1)', 'rgba(204, 204, 204, 1)'])
+
+        let legend = d3.legendColor()
+            .scale(legend_data)
+
+        svg1.select('.legend')
+            .call(legend)
+
+        svg1.selectAll('.legend text')
+            .style('font-family', 'Arial')
+    }
+
+    function create_city_circles(data) {
+        svg2.selectAll('circle .review')
+            .data(data)
+            .enter()
+            .append('circle')
+            .attr('cx', function(d) {
+                return projection1([d['long'], d['lat']])[0]
+            })
+            .attr('cy', function(d) {
+                return projection1([d['long'], d['lat']])[1]
+            })
+            .attr('r', function(d) {
+                return 0.0005 * review_object[d['city']][document.getElementById('quarterRange2').value]
+            })
+            .attr('class', 'review')
+            .style('fill', 'rgba(43, 140, 190, 0.7)')
+            .style('stroke', 'rgba(4, 90, 141, 1)')
+            .on("mouseenter", function(d) {
+                tool_tip2.html(function() {
+                    let comma = ""
+                    if(d.state.length !== 0) {
+                        comma = ", "
+                    }
+
+                    return '<p><b>' + d['city'] + comma + d.state + '</b></p>' +
+                        '<p>Review Total: ' + formatComma(review_object[d['city']][document.getElementById('quarterRange2').value]) + '</p>'
+                })
+                    .show()
+
+                tool_tip2.style("left", (d3.event.pageX + 10) + "px")
+                tool_tip2.style("top", (d3.event.pageY + 10) + "px")
+            })
+            .on("mousemove", function(d) {
+                tool_tip2.style("left", (d3.event.pageX + 10) + "px")
+                tool_tip2.style("top", (d3.event.pageY + 10) + "px")
+            })
+            .on("mouseleave", function(d) {
+                tool_tip2.hide()
+            })
+    }
+
+    function change_cities_radius() {
+        svg2.selectAll('.review')
+            .remove()
+
+        create_city_circles(file_data[1])
+    }
+
+    function create_review_object(cities, vader_input) {
+        let review_object = {}
+        let j=0
+        for(let i = 0; i < cities.length; i++) {
+            review_object[cities[i].city] = {"1": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "2": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "3": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "4": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "5": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "6": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "7": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "8": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "9": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "10": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "11": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "12": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString(),
+                "13": (parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency) +
+                    parseInt(vader_input[j++].frequency)).toString()}
+        }
+
+        return review_object
+    }
+
+    function get_quarter() {
+        let slider_value = document.getElementById('quarterRange1').value
+        return quarter_enum[slider_value]
+    }
+
+    function find_index(data, city, quarter) {
+        let city_indexes = []
+        let quarter_indexes = []
+
+        for(let i = 0; i < data.length; i++) {
+            if( (data[i].city === city) && (data[i].label === 'pos') ){
+                city_indexes.push(i)
+            }
+            if( (data[i].quarter === quarter) && (data[i].label === 'pos') ){
+                quarter_indexes.push(i)
+            }
+        }
+
+        // Function found here https://stackoverflow.com/questions/12433604/how-can-i-find-matching-values-in-two-arrays
+        Array.prototype.diff = function(arr2) {
+            var ret = 0;
+            this.sort();
+            arr2.sort();
+            for(var i = 0; i < this.length; i += 1) {
+                if(arr2.indexOf(this[i]) > -1){
+                    ret = this[i];
+                }
+            }
+            return ret;
+        }
+
+        return city_indexes.diff(quarter_indexes)
+    }
+
+    function calculate_positive_percent(data, index) {
+        return Number(((parseInt(data[index].frequency) / (parseInt(data[index].frequency) +
+            parseInt(data[index+1].frequency) + parseInt(data[index+2].frequency))) * 100).toFixed(1))
+    }
+
+    function create_word_cloud(city, us_cities, lda_city_Q, lda_topics) {
+        let tool_tip_div = d3.select('#toolTipDiv3')
+            .append('svg')
+            .attr('width', 250)
+            .attr('height', 250)
+
+        let index_of_city = us_cities.map(function(d) {
+            return d['city']
+        }).indexOf(city)
+
+        let index_of_quarter = document.getElementById('quarterRange3').value - 1
+
+        let index_of_lda_city_Q = (index_of_city * 104) + (index_of_quarter * 8)
+
+        let lda_topics_to_get = []
+
+        lda_topics_to_get.push(lda_city_Q[index_of_lda_city_Q]["best topic"])
+        lda_topics_to_get.push(lda_city_Q[index_of_lda_city_Q+1]["best topic"])
+        lda_topics_to_get.push(lda_city_Q[index_of_lda_city_Q+2]["best topic"])
+        lda_topics_to_get.push(lda_city_Q[index_of_lda_city_Q+3]["best topic"])
+        lda_topics_to_get.push(lda_city_Q[index_of_lda_city_Q+4]["best topic"])
+
+        let words = []
+
+        for (let i = 0; i < lda_topics_to_get.length; i++) {
+            words.push({word: lda_topics[5 * (parseInt(lda_topics_to_get[i])-1)].word, size: (30 - (i * 5))})
+            words.push({word: lda_topics[(5 * (parseInt(lda_topics_to_get[i])-1)) + 1].word, size: (30 - (i * 5))})
+            words.push({word: lda_topics[(5 * (parseInt(lda_topics_to_get[i])-1)) + 2].word, size: (30 - (i * 5))})
+            words.push({word: lda_topics[(5 * (parseInt(lda_topics_to_get[i])-1)) + 3].word, size: (30 - (i * 5))})
+            words.push({word: lda_topics[(5 * (parseInt(lda_topics_to_get[i])-1)) + 4].word, size: (30 - (i * 5))})
+        }
+
+        // layout and draw() used from tutorial: https://www.d3-graph-gallery.com/graph/wordcloud_size.html
+        let layout = d3.layout.cloud()
+                       .size([250, 250])
+                       .words(words.map(function(d) {
+                           return {text: d.word, size: d.size}
+                       }))
+                       .padding(3)
+                       .rotate(function(d) {
+                           return ~~(Math.random() * 2) * 90
+                       })
+                       .fontSize(function(d) {
+                           return d.size
+                       })
+                       .on("end", draw)
+        layout.start()
+
+        function draw(words) {
+            tool_tip_div.append('g')
+                .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                .selectAll('text')
+                .data(words)
+                .enter()
+                .append('text')
+                .style('font-size', function(d) {
+                    return d.size.toString() + 'px'
+                })
+                .style('fill', function(d,i) {
+                    if( (i >= 0) && (i < 5) ) {
+                        return "rgba(8, 104, 172, 1)"
+                    } else if( (i >= 5) && (i < 10) ) {
+                        return "rgba(227, 74, 51, 1)"
+                    } else if( (i >= 10) && (i < 15) ) {
+                        return "rgba(116, 196, 118, 1)"
+                    } else if( (i >= 15) && (i < 20) ) {
+                        return "rgba(117, 107, 177, 1)"
+                    } else {
+                        return "black"
+                    }
+                })
+                .attr('text-anchor', 'middle')
+                .style('font-family', 'impact')
+                .attr("transform", function(d) {
+                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .text(function(d) {
+                    return d.text
+                })
+        }
+
+        let lda_topic_categories = []
+
+        for(let i = 0; i < lda_topics_to_get.length; i++) {
+            lda_topic_categories.push(lda_topics[5 * (parseInt(lda_topics_to_get[i]) - 1)].category)
+        }
+
+        svg3.select('.legend').remove()
+        create_map3_legend(lda_topic_categories)
+    }
+
+    function draw_pie_chart(data, index) {
+        // Pie chart code derived from the book "Interactive Data Visualization for the Web" by Scott Murray
+        let tool_tip_div = d3.select('#toolTipDiv1')
+            .append('svg')
+            .attr('width', 200)
+            .attr('height', 200)
+
+        let label_data = [parseInt(data[index].frequency),
+            parseInt(data[index+1].frequency),
+            parseInt(data[index+2].frequency)]
+
+        let pie_width = 200
+
+        let outer_radius = pie_width / 2
+        let inner_radius = pie_width / 3
+
+        let pie_chart = d3.pie()
+
+        let arc = d3.arc()
+            .innerRadius(inner_radius)
+            .outerRadius(outer_radius)
+
+        let arcs = tool_tip_div.selectAll('g.arc')
+            .data(pie_chart(label_data))
+            .enter()
+            .append('g')
+            .attr('class', 'arc')
+            .attr('transform', 'translate(' + outer_radius + ", " + outer_radius + ')')
+
+        arcs.append('path')
+            .attr('fill', function (d, i) {
+                if (i === 0) {
+                    return 'rgba(8, 104, 172, 1)'
+                } else if (i === 1) {
+                    return 'rgba(227, 74, 51, 1)'
+                } else if (i === 2) {
+                    return 'rgba(204, 204, 204, 1)'
+                }
+            })
+            .attr('d', arc)
+
+        tool_tip_div.append('g')
+            .attr('class', 'legend')
+            .attr('transform', 'translate(' + inner_radius + ',' + inner_radius + ')')
+
+        let legend_data = d3.scaleOrdinal()
+            .domain(['Positive', 'Negative', 'Neutral'])
+            .range(['rgba(8, 104, 172, 1)', 'rgba(227, 74, 51, 1)', 'rgba(204, 204, 204, 1)'])
+
+        let legend = d3.legendColor()
+            .scale(legend_data)
+
+        tool_tip_div.select('.legend')
+            .call(legend)
+    }
+</script>
+</html>

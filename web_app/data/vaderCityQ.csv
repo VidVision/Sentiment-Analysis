@@ -1,0 +1,820 @@
+city,quarter,label,frequency
+Asheville,2018Q1,pos,11749
+Asheville,2018Q1,neg,175
+Asheville,2018Q1,neu,111
+Asheville,2018Q2,pos,17713
+Asheville,2018Q2,neg,307
+Asheville,2018Q2,neu,173
+Asheville,2018Q3,pos,20264
+Asheville,2018Q3,neg,378
+Asheville,2018Q3,neu,195
+Asheville,2018Q4,pos,19776
+Asheville,2018Q4,neg,373
+Asheville,2018Q4,neu,204
+Asheville,2019Q1,pos,14974
+Asheville,2019Q1,neg,205
+Asheville,2019Q1,neu,118
+Asheville,2019Q2,pos,20937
+Asheville,2019Q2,neg,333
+Asheville,2019Q2,neu,195
+Asheville,2019Q3,pos,22791
+Asheville,2019Q3,neg,426
+Asheville,2019Q3,neu,209
+Asheville,2019Q4,pos,23816
+Asheville,2019Q4,neg,419
+Asheville,2019Q4,neu,240
+Asheville,2020Q1,pos,13345
+Asheville,2020Q1,neg,237
+Asheville,2020Q1,neu,155
+Asheville,2020Q2,pos,5094
+Asheville,2020Q2,neg,70
+Asheville,2020Q2,neu,49
+Asheville,2020Q3,pos,16053
+Asheville,2020Q3,neg,226
+Asheville,2020Q3,neu,147
+Asheville,2020Q4,pos,18244
+Asheville,2020Q4,neg,274
+Asheville,2020Q4,neu,161
+Asheville,2021Q1,pos,6093
+Asheville,2021Q1,neg,70
+Asheville,2021Q1,neu,49
+Austin,2018Q1,pos,33429
+Austin,2018Q1,neg,701
+Austin,2018Q1,neu,694
+Austin,2018Q2,pos,36463
+Austin,2018Q2,neg,774
+Austin,2018Q2,neu,579
+Austin,2018Q3,pos,35441
+Austin,2018Q3,neg,712
+Austin,2018Q3,neu,613
+Austin,2018Q4,pos,37689
+Austin,2018Q4,neg,752
+Austin,2018Q4,neu,602
+Austin,2019Q1,pos,34780
+Austin,2019Q1,neg,706
+Austin,2019Q1,neu,499
+Austin,2019Q2,pos,41402
+Austin,2019Q2,neg,972
+Austin,2019Q2,neu,517
+Austin,2019Q3,pos,40908
+Austin,2019Q3,neg,918
+Austin,2019Q3,neu,645
+Austin,2019Q4,pos,42925
+Austin,2019Q4,neg,1035
+Austin,2019Q4,neu,667
+Austin,2020Q1,pos,24723
+Austin,2020Q1,neg,528
+Austin,2020Q1,neu,436
+Austin,2020Q2,pos,10294
+Austin,2020Q2,neg,244
+Austin,2020Q2,neu,125
+Austin,2020Q3,pos,19125
+Austin,2020Q3,neg,431
+Austin,2020Q3,neu,217
+Austin,2020Q4,pos,19970
+Austin,2020Q4,neg,451
+Austin,2020Q4,neu,216
+Austin,2021Q1,pos,7917
+Austin,2021Q1,neg,184
+Austin,2021Q1,neu,89
+Broward County,2018Q1,pos,25118
+Broward County,2018Q1,neg,1515
+Broward County,2018Q1,neu,465
+Broward County,2018Q2,pos,23249
+Broward County,2018Q2,neg,935
+Broward County,2018Q2,neu,375
+Broward County,2018Q3,pos,21274
+Broward County,2018Q3,neg,1034
+Broward County,2018Q3,neu,333
+Broward County,2018Q4,pos,26557
+Broward County,2018Q4,neg,1235
+Broward County,2018Q4,neu,543
+Broward County,2019Q1,pos,39507
+Broward County,2019Q1,neg,1996
+Broward County,2019Q1,neu,812
+Broward County,2019Q2,pos,31899
+Broward County,2019Q2,neg,1270
+Broward County,2019Q2,neu,535
+Broward County,2019Q3,pos,26769
+Broward County,2019Q3,neg,1097
+Broward County,2019Q3,neu,497
+Broward County,2019Q4,pos,33781
+Broward County,2019Q4,neg,1795
+Broward County,2019Q4,neu,773
+Broward County,2020Q1,pos,32088
+Broward County,2020Q1,neg,1452
+Broward County,2020Q1,neu,686
+Broward County,2020Q2,pos,8727
+Broward County,2020Q2,neg,342
+Broward County,2020Q2,neu,152
+Broward County,2020Q3,pos,18701
+Broward County,2020Q3,neg,721
+Broward County,2020Q3,neu,327
+Broward County,2020Q4,pos,21168
+Broward County,2020Q4,neg,875
+Broward County,2020Q4,neu,378
+Broward County,2021Q1,pos,17583
+Broward County,2021Q1,neg,960
+Broward County,2021Q1,neu,277
+Chicago,2018Q1,pos,28769
+Chicago,2018Q1,neg,829
+Chicago,2018Q1,neu,362
+Chicago,2018Q2,pos,49854
+Chicago,2018Q2,neg,1672
+Chicago,2018Q2,neu,662
+Chicago,2018Q3,pos,63451
+Chicago,2018Q3,neg,2165
+Chicago,2018Q3,neu,781
+Chicago,2018Q4,pos,50973
+Chicago,2018Q4,neg,1618
+Chicago,2018Q4,neu,677
+Chicago,2019Q1,pos,33100
+Chicago,2019Q1,neg,1033
+Chicago,2019Q1,neu,420
+Chicago,2019Q2,pos,56137
+Chicago,2019Q2,neg,1883
+Chicago,2019Q2,neu,669
+Chicago,2019Q3,pos,62729
+Chicago,2019Q3,neg,2099
+Chicago,2019Q3,neu,841
+Chicago,2019Q4,pos,50827
+Chicago,2019Q4,neg,1806
+Chicago,2019Q4,neu,733
+Chicago,2020Q1,pos,21654
+Chicago,2020Q1,neg,716
+Chicago,2020Q1,neu,394
+Chicago,2020Q2,pos,5084
+Chicago,2020Q2,neg,243
+Chicago,2020Q2,neu,85
+Chicago,2020Q3,pos,15582
+Chicago,2020Q3,neg,575
+Chicago,2020Q3,neu,234
+Chicago,2020Q4,pos,13205
+Chicago,2020Q4,neg,461
+Chicago,2020Q4,neu,208
+Chicago,2021Q1,pos,5799
+Chicago,2021Q1,neg,252
+Chicago,2021Q1,neu,92
+Clark County NV,2018Q1,pos,17972
+Clark County NV,2018Q1,neu,465
+Clark County NV,2018Q1,neg,345
+Clark County NV,2018Q2,pos,21924
+Clark County NV,2018Q2,neu,597
+Clark County NV,2018Q2,neg,443
+Clark County NV,2018Q3,pos,22105
+Clark County NV,2018Q3,neu,572
+Clark County NV,2018Q3,neg,450
+Clark County NV,2018Q4,pos,21286
+Clark County NV,2018Q4,neu,545
+Clark County NV,2018Q4,neg,440
+Clark County NV,2019Q1,pos,26755
+Clark County NV,2019Q1,neu,720
+Clark County NV,2019Q1,neg,626
+Clark County NV,2019Q2,pos,30089
+Clark County NV,2019Q2,neu,763
+Clark County NV,2019Q2,neg,740
+Clark County NV,2019Q3,pos,33266
+Clark County NV,2019Q3,neu,824
+Clark County NV,2019Q3,neg,798
+Clark County NV,2019Q4,pos,36098
+Clark County NV,2019Q4,neu,1047
+Clark County NV,2019Q4,neg,995
+Clark County NV,2020Q1,pos,24322
+Clark County NV,2020Q1,neu,711
+Clark County NV,2020Q1,neg,602
+Clark County NV,2020Q2,pos,10536
+Clark County NV,2020Q2,neg,301
+Clark County NV,2020Q2,neu,222
+Clark County NV,2020Q3,pos,23837
+Clark County NV,2020Q3,neg,763
+Clark County NV,2020Q3,neu,541
+Clark County NV,2020Q4,pos,22057
+Clark County NV,2020Q4,neg,776
+Clark County NV,2020Q4,neu,465
+Clark County NV,2021Q1,pos,10940
+Clark County NV,2021Q1,neg,357
+Clark County NV,2021Q1,neu,252
+Columbus,2018Q1,pos,6140
+Columbus,2018Q1,neg,300
+Columbus,2018Q1,neu,75
+Columbus,2018Q2,pos,8874
+Columbus,2018Q2,neg,402
+Columbus,2018Q2,neu,100
+Columbus,2018Q3,pos,10175
+Columbus,2018Q3,neg,490
+Columbus,2018Q3,neu,118
+Columbus,2018Q4,pos,9731
+Columbus,2018Q4,neg,344
+Columbus,2018Q4,neu,134
+Columbus,2019Q1,pos,8177
+Columbus,2019Q1,neg,326
+Columbus,2019Q1,neu,127
+Columbus,2019Q2,pos,10929
+Columbus,2019Q2,neg,516
+Columbus,2019Q2,neu,132
+Columbus,2019Q3,pos,12757
+Columbus,2019Q3,neg,623
+Columbus,2019Q3,neu,201
+Columbus,2019Q4,pos,12287
+Columbus,2019Q4,neg,508
+Columbus,2019Q4,neu,220
+Columbus,2020Q1,pos,7670
+Columbus,2020Q1,neg,288
+Columbus,2020Q1,neu,163
+Columbus,2020Q2,pos,3371
+Columbus,2020Q2,neg,118
+Columbus,2020Q2,neu,69
+Columbus,2020Q3,pos,6760
+Columbus,2020Q3,neg,241
+Columbus,2020Q3,neu,114
+Columbus,2020Q4,pos,6583
+Columbus,2020Q4,neg,206
+Columbus,2020Q4,neu,115
+Columbus,2021Q1,pos,3541
+Columbus,2021Q1,neg,128
+Columbus,2021Q1,neu,55
+Dallas,2018Q1,pos,6677
+Dallas,2018Q1,neg,768
+Dallas,2018Q1,neu,12
+Dallas,2018Q2,pos,6888
+Dallas,2018Q2,neg,823
+Dallas,2018Q2,neu,29
+Dallas,2018Q3,pos,7324
+Dallas,2018Q3,neg,841
+Dallas,2018Q3,neu,0
+Dallas,2018Q4,pos,6368
+Dallas,2018Q4,neg,682
+Dallas,2018Q4,neu,12
+Dallas,2019Q1,pos,7167
+Dallas,2019Q1,neg,882
+Dallas,2019Q1,neu,18
+Dallas,2019Q2,pos,7720
+Dallas,2019Q2,neg,993
+Dallas,2019Q2,neu,27
+Dallas,2019Q3,pos,7352
+Dallas,2019Q3,neg,868
+Dallas,2019Q3,neu,17
+Dallas,2019Q4,pos,6299
+Dallas,2019Q4,neg,823
+Dallas,2019Q4,neu,23
+Dallas,2020Q1,pos,4895
+Dallas,2020Q1,neg,562
+Dallas,2020Q1,neu,15
+Dallas,2020Q2,pos,578
+Dallas,2020Q2,neg,106
+Dallas,2020Q2,neu,0
+Dallas,2020Q3,pos,1480
+Dallas,2020Q3,neg,178
+Dallas,2020Q3,neu,0
+Dallas,2020Q4,pos,1881
+Dallas,2020Q4,neg,188
+Dallas,2020Q4,neu,2
+Dallas,2021Q1,pos,1295
+Dallas,2021Q1,neg,163
+Dallas,2021Q1,neu,6
+Denver,2018Q1,pos,18883
+Denver,2018Q1,neg,452
+Denver,2018Q1,neu,310
+Denver,2018Q2,pos,27419
+Denver,2018Q2,neg,679
+Denver,2018Q2,neu,418
+Denver,2018Q3,pos,36123
+Denver,2018Q3,neg,853
+Denver,2018Q3,neu,456
+Denver,2018Q4,pos,26177
+Denver,2018Q4,neg,480
+Denver,2018Q4,neu,408
+Denver,2019Q1,pos,21161
+Denver,2019Q1,neg,474
+Denver,2019Q1,neu,273
+Denver,2019Q2,pos,31292
+Denver,2019Q2,neg,627
+Denver,2019Q2,neu,438
+Denver,2019Q3,pos,37828
+Denver,2019Q3,neg,853
+Denver,2019Q3,neu,440
+Denver,2019Q4,pos,28356
+Denver,2019Q4,neg,561
+Denver,2019Q4,neu,444
+Denver,2020Q1,pos,14366
+Denver,2020Q1,neg,297
+Denver,2020Q1,neu,219
+Denver,2020Q2,pos,6012
+Denver,2020Q2,neg,139
+Denver,2020Q2,neu,83
+Denver,2020Q3,pos,16588
+Denver,2020Q3,neg,355
+Denver,2020Q3,neu,180
+Denver,2020Q4,pos,15040
+Denver,2020Q4,neg,308
+Denver,2020Q4,neu,182
+Denver,2021Q1,pos,7447
+Denver,2021Q1,neg,140
+Denver,2021Q1,neu,102
+Hawaii,2018Q1,pos,52573
+Hawaii,2018Q1,neg,1012
+Hawaii,2018Q1,neu,858
+Hawaii,2018Q2,pos,56352
+Hawaii,2018Q2,neu,890
+Hawaii,2018Q2,neg,865
+Hawaii,2018Q3,pos,61182
+Hawaii,2018Q3,neg,1088
+Hawaii,2018Q3,neu,891
+Hawaii,2018Q4,pos,62652
+Hawaii,2018Q4,neu,1210
+Hawaii,2018Q4,neg,1095
+Hawaii,2019Q1,pos,58597
+Hawaii,2019Q1,neg,908
+Hawaii,2019Q1,neu,848
+Hawaii,2019Q2,pos,63368
+Hawaii,2019Q2,neg,1048
+Hawaii,2019Q2,neu,865
+Hawaii,2019Q3,pos,68899
+Hawaii,2019Q3,neg,1323
+Hawaii,2019Q3,neu,1197
+Hawaii,2019Q4,pos,67049
+Hawaii,2019Q4,neu,1374
+Hawaii,2019Q4,neg,1243
+Hawaii,2020Q1,pos,53010
+Hawaii,2020Q1,neg,1090
+Hawaii,2020Q1,neu,1005
+Hawaii,2020Q2,pos,2030
+Hawaii,2020Q2,neg,36
+Hawaii,2020Q2,neu,22
+Hawaii,2020Q3,pos,6369
+Hawaii,2020Q3,neg,134
+Hawaii,2020Q3,neu,103
+Hawaii,2020Q4,pos,21444
+Hawaii,2020Q4,neg,453
+Hawaii,2020Q4,neu,225
+Hawaii,2021Q1,pos,13413
+Hawaii,2021Q1,neg,231
+Hawaii,2021Q1,neu,137
+Los Angeles,2018Q1,pos,114043
+Los Angeles,2018Q1,neu,2794
+Los Angeles,2018Q1,neg,2241
+Los Angeles,2018Q2,pos,122215
+Los Angeles,2018Q2,neu,2533
+Los Angeles,2018Q2,neg,2192
+Los Angeles,2018Q3,pos,147106
+Los Angeles,2018Q3,neg,3054
+Los Angeles,2018Q3,neu,2858
+Los Angeles,2018Q4,pos,138116
+Los Angeles,2018Q4,neg,3272
+Los Angeles,2018Q4,neu,3009
+Los Angeles,2019Q1,pos,102839
+Los Angeles,2019Q1,neg,2056
+Los Angeles,2019Q1,neu,1902
+Los Angeles,2019Q2,pos,123786
+Los Angeles,2019Q2,neg,2475
+Los Angeles,2019Q2,neu,2284
+Los Angeles,2019Q3,pos,137384
+Los Angeles,2019Q3,neg,3229
+Los Angeles,2019Q3,neu,2677
+Los Angeles,2019Q4,pos,123058
+Los Angeles,2019Q4,neg,3182
+Los Angeles,2019Q4,neu,3169
+Los Angeles,2020Q1,pos,69188
+Los Angeles,2020Q1,neu,1541
+Los Angeles,2020Q1,neg,1338
+Los Angeles,2020Q2,pos,27248
+Los Angeles,2020Q2,neg,721
+Los Angeles,2020Q2,neu,516
+Los Angeles,2020Q3,pos,56219
+Los Angeles,2020Q3,neg,1685
+Los Angeles,2020Q3,neu,927
+Los Angeles,2020Q4,pos,51970
+Los Angeles,2020Q4,neg,1487
+Los Angeles,2020Q4,neu,893
+Los Angeles,2021Q1,pos,15433
+Los Angeles,2021Q1,neg,480
+Los Angeles,2021Q1,neu,257
+NY City & vicinity,2018Q1,pos,122920
+NY City & vicinity,2018Q1,neg,4055
+NY City & vicinity,2018Q1,neu,3922
+NY City & vicinity,2018Q2,pos,179366
+NY City & vicinity,2018Q2,neg,6635
+NY City & vicinity,2018Q2,neu,5590
+NY City & vicinity,2018Q3,pos,193017
+NY City & vicinity,2018Q3,neg,7601
+NY City & vicinity,2018Q3,neu,5743
+NY City & vicinity,2018Q4,pos,193966
+NY City & vicinity,2018Q4,neg,7917
+NY City & vicinity,2018Q4,neu,4655
+NY City & vicinity,2019Q1,pos,140517
+NY City & vicinity,2019Q1,neg,5187
+NY City & vicinity,2019Q1,neu,3404
+NY City & vicinity,2019Q2,pos,188145
+NY City & vicinity,2019Q2,neg,8095
+NY City & vicinity,2019Q2,neu,4622
+NY City & vicinity,2019Q3,pos,185554
+NY City & vicinity,2019Q3,neg,8338
+NY City & vicinity,2019Q3,neu,4618
+NY City & vicinity,2019Q4,pos,185244
+NY City & vicinity,2019Q4,neg,9242
+NY City & vicinity,2019Q4,neu,4354
+NY City & vicinity,2020Q1,pos,100671
+NY City & vicinity,2020Q1,neg,4067
+NY City & vicinity,2020Q1,neu,3017
+NY City & vicinity,2020Q2,pos,16984
+NY City & vicinity,2020Q2,neg,965
+NY City & vicinity,2020Q2,neu,404
+NY City & vicinity,2020Q3,pos,34688
+NY City & vicinity,2020Q3,neg,1713
+NY City & vicinity,2020Q3,neu,790
+NY City & vicinity,2020Q4,pos,34335
+NY City & vicinity,2020Q4,neg,1591
+NY City & vicinity,2020Q4,neu,708
+NY City & vicinity,2021Q1,pos,11278
+NY City & vicinity,2021Q1,neg,584
+NY City & vicinity,2021Q1,neu,223
+Boston & vicinity,2018Q1,pos,32226
+Boston & vicinity,2018Q1,neg,1152
+Boston & vicinity,2018Q1,neu,608
+Boston & vicinity,2018Q2,pos,52753
+Boston & vicinity,2018Q2,neg,1871
+Boston & vicinity,2018Q2,neu,822
+Boston & vicinity,2018Q3,pos,68148
+Boston & vicinity,2018Q3,neg,2522
+Boston & vicinity,2018Q3,neu,1038
+Boston & vicinity,2018Q4,pos,51014
+Boston & vicinity,2018Q4,neg,2064
+Boston & vicinity,2018Q4,neu,764
+Boston & vicinity,2019Q1,pos,27071
+Boston & vicinity,2019Q1,neg,1038
+Boston & vicinity,2019Q1,neu,368
+Boston & vicinity,2019Q2,pos,46208
+Boston & vicinity,2019Q2,neg,1747
+Boston & vicinity,2019Q2,neu,666
+Boston & vicinity,2019Q3,pos,56538
+Boston & vicinity,2019Q3,neg,2291
+Boston & vicinity,2019Q3,neu,760
+Boston & vicinity,2019Q4,pos,40095
+Boston & vicinity,2019Q4,neg,1739
+Boston & vicinity,2019Q4,neu,598
+Boston & vicinity,2020Q1,pos,16659
+Boston & vicinity,2020Q1,neg,698
+Boston & vicinity,2020Q1,neu,242
+Boston & vicinity,2020Q2,pos,5730
+Boston & vicinity,2020Q2,neg,145
+Boston & vicinity,2020Q2,neu,109
+Boston & vicinity,2020Q3,pos,20564
+Boston & vicinity,2020Q3,neg,461
+Boston & vicinity,2020Q3,neu,230
+Boston & vicinity,2020Q4,pos,12640
+Boston & vicinity,2020Q4,neg,329
+Boston & vicinity,2020Q4,neu,144
+Boston & vicinity,2021Q1,pos,5928
+Boston & vicinity,2021Q1,neg,207
+Boston & vicinity,2021Q1,neu,53
+Nashville,2018Q1,pos,32266
+Nashville,2018Q1,neg,872
+Nashville,2018Q1,neu,338
+Nashville,2018Q2,pos,46988
+Nashville,2018Q2,neg,1234
+Nashville,2018Q2,neu,534
+Nashville,2018Q3,pos,52946
+Nashville,2018Q3,neg,1439
+Nashville,2018Q3,neu,635
+Nashville,2018Q4,pos,46370
+Nashville,2018Q4,neg,1325
+Nashville,2018Q4,neu,528
+Nashville,2019Q1,pos,42103
+Nashville,2019Q1,neg,1061
+Nashville,2019Q1,neu,414
+Nashville,2019Q2,pos,56388
+Nashville,2019Q2,neg,1482
+Nashville,2019Q2,neu,558
+Nashville,2019Q3,pos,59802
+Nashville,2019Q3,neg,1776
+Nashville,2019Q3,neu,643
+Nashville,2019Q4,pos,52186
+Nashville,2019Q4,neg,1428
+Nashville,2019Q4,neu,668
+Nashville,2020Q1,pos,29968
+Nashville,2020Q1,neg,726
+Nashville,2020Q1,neu,417
+Nashville,2020Q2,pos,9114
+Nashville,2020Q2,neg,248
+Nashville,2020Q2,neu,98
+Nashville,2020Q3,pos,22533
+Nashville,2020Q3,neg,512
+Nashville,2020Q3,neu,245
+Nashville,2020Q4,pos,25174
+Nashville,2020Q4,neg,621
+Nashville,2020Q4,neu,300
+Nashville,2021Q1,pos,10426
+Nashville,2021Q1,neg,264
+Nashville,2021Q1,neu,104
+New Orleans,2018Q1,pos,37719
+New Orleans,2018Q1,neg,1439
+New Orleans,2018Q1,neu,463
+New Orleans,2018Q2,pos,42029
+New Orleans,2018Q2,neg,1470
+New Orleans,2018Q2,neu,415
+New Orleans,2018Q3,pos,37163
+New Orleans,2018Q3,neg,1402
+New Orleans,2018Q3,neu,451
+New Orleans,2018Q4,pos,44314
+New Orleans,2018Q4,neg,1584
+New Orleans,2018Q4,neu,652
+New Orleans,2019Q1,pos,46779
+New Orleans,2019Q1,neg,1723
+New Orleans,2019Q1,neu,490
+New Orleans,2019Q2,pos,46205
+New Orleans,2019Q2,neg,1609
+New Orleans,2019Q2,neu,525
+New Orleans,2019Q3,pos,37090
+New Orleans,2019Q3,neg,1464
+New Orleans,2019Q3,neu,487
+New Orleans,2019Q4,pos,45663
+New Orleans,2019Q4,neg,1793
+New Orleans,2019Q4,neu,652
+New Orleans,2020Q1,pos,35051
+New Orleans,2020Q1,neg,1179
+New Orleans,2020Q1,neu,530
+New Orleans,2020Q2,pos,4106
+New Orleans,2020Q2,neg,176
+New Orleans,2020Q2,neu,89
+New Orleans,2020Q3,pos,10954
+New Orleans,2020Q3,neg,463
+New Orleans,2020Q3,neu,185
+New Orleans,2020Q4,pos,14604
+New Orleans,2020Q4,neg,548
+New Orleans,2020Q4,neu,205
+New Orleans,2021Q1,pos,6115
+New Orleans,2021Q1,neg,230
+New Orleans,2021Q1,neu,92
+Portland/Salem,2018Q1,pos,21637
+Portland/Salem,2018Q1,neg,375
+Portland/Salem,2018Q1,neu,189
+Portland/Salem,2018Q2,pos,31407
+Portland/Salem,2018Q2,neg,531
+Portland/Salem,2018Q2,neu,283
+Portland/Salem,2018Q3,pos,42331
+Portland/Salem,2018Q3,neg,754
+Portland/Salem,2018Q3,neu,348
+Portland/Salem,2018Q4,pos,28774
+Portland/Salem,2018Q4,neg,465
+Portland/Salem,2018Q4,neu,243
+Portland/Salem,2019Q1,pos,28391
+Portland/Salem,2019Q1,neg,397
+Portland/Salem,2019Q1,neu,310
+Portland/Salem,2019Q2,pos,39924
+Portland/Salem,2019Q2,neg,694
+Portland/Salem,2019Q2,neu,355
+Portland/Salem,2019Q3,pos,49911
+Portland/Salem,2019Q3,neg,858
+Portland/Salem,2019Q3,neu,491
+Portland/Salem,2019Q4,pos,33031
+Portland/Salem,2019Q4,neg,552
+Portland/Salem,2019Q4,neu,382
+Portland/Salem,2020Q1,pos,18721
+Portland/Salem,2020Q1,neg,350
+Portland/Salem,2020Q1,neu,236
+Portland/Salem,2020Q2,pos,6325
+Portland/Salem,2020Q2,neg,102
+Portland/Salem,2020Q2,neu,69
+Portland/Salem,2020Q3,pos,17213
+Portland/Salem,2020Q3,neg,278
+Portland/Salem,2020Q3,neu,163
+Portland/Salem,2020Q4,pos,14214
+Portland/Salem,2020Q4,neg,205
+Portland/Salem,2020Q4,neu,148
+Portland/Salem,2021Q1,pos,6494
+Portland/Salem,2021Q1,neg,140
+Portland/Salem,2021Q1,neu,52
+SF Bay Area,2018Q1,pos,66118
+SF Bay Area,2018Q1,neg,2075
+SF Bay Area,2018Q1,neu,943
+SF Bay Area,2018Q2,pos,86084
+SF Bay Area,2018Q2,neg,2830
+SF Bay Area,2018Q2,neu,1320
+SF Bay Area,2018Q3,pos,99040
+SF Bay Area,2018Q3,neg,3303
+SF Bay Area,2018Q3,neu,1364
+SF Bay Area,2018Q4,pos,85510
+SF Bay Area,2018Q4,neg,3119
+SF Bay Area,2018Q4,neu,1270
+SF Bay Area,2019Q1,pos,77771
+SF Bay Area,2019Q1,neg,2439
+SF Bay Area,2019Q1,neu,1135
+SF Bay Area,2019Q2,pos,93425
+SF Bay Area,2019Q2,neg,3028
+SF Bay Area,2019Q2,neu,1343
+SF Bay Area,2019Q3,pos,102127
+SF Bay Area,2019Q3,neg,3436
+SF Bay Area,2019Q3,neu,1382
+SF Bay Area,2019Q4,pos,90838
+SF Bay Area,2019Q4,neg,3134
+SF Bay Area,2019Q4,neu,1467
+SF Bay Area,2020Q1,pos,50438
+SF Bay Area,2020Q1,neg,1621
+SF Bay Area,2020Q1,neu,928
+SF Bay Area,2020Q2,pos,11796
+SF Bay Area,2020Q2,neg,311
+SF Bay Area,2020Q2,neu,192
+SF Bay Area,2020Q3,pos,28279
+SF Bay Area,2020Q3,neg,824
+SF Bay Area,2020Q3,neu,375
+SF Bay Area,2020Q4,pos,28316
+SF Bay Area,2020Q4,neg,819
+SF Bay Area,2020Q4,neu,370
+SF Bay Area,2021Q1,pos,12819
+SF Bay Area,2021Q1,neg,363
+SF Bay Area,2021Q1,neu,187
+San Diego,2018Q1,pos,46052
+San Diego,2018Q1,neg,1315
+San Diego,2018Q1,neu,789
+San Diego,2018Q2,pos,53528
+San Diego,2018Q2,neg,1550
+San Diego,2018Q2,neu,756
+San Diego,2018Q3,pos,64968
+San Diego,2018Q3,neg,2409
+San Diego,2018Q3,neu,829
+San Diego,2018Q4,pos,51501
+San Diego,2018Q4,neg,1618
+San Diego,2018Q4,neu,769
+San Diego,2019Q1,pos,51864
+San Diego,2019Q1,neg,1571
+San Diego,2019Q1,neu,673
+San Diego,2019Q2,pos,64167
+San Diego,2019Q2,neg,1894
+San Diego,2019Q2,neu,822
+San Diego,2019Q3,pos,74354
+San Diego,2019Q3,neg,2378
+San Diego,2019Q3,neu,959
+San Diego,2019Q4,pos,58836
+San Diego,2019Q4,neg,1849
+San Diego,2019Q4,neu,870
+San Diego,2020Q1,pos,37979
+San Diego,2020Q1,neg,1084
+San Diego,2020Q1,neu,557
+San Diego,2020Q2,pos,18149
+San Diego,2020Q2,neg,483
+San Diego,2020Q2,neu,257
+San Diego,2020Q3,pos,41159
+San Diego,2020Q3,neg,1362
+San Diego,2020Q3,neu,457
+San Diego,2020Q4,pos,33185
+San Diego,2020Q4,neg,980
+San Diego,2020Q4,neu,429
+San Diego,2021Q1,pos,14424
+San Diego,2021Q1,neg,391
+San Diego,2021Q1,neu,171
+Santa Cruz & vicinity,2018Q1,pos,7206
+Santa Cruz & vicinity,2018Q1,neu,111
+Santa Cruz & vicinity,2018Q1,neg,90
+Santa Cruz & vicinity,2018Q2,pos,10214
+Santa Cruz & vicinity,2018Q2,neu,154
+Santa Cruz & vicinity,2018Q2,neg,141
+Santa Cruz & vicinity,2018Q3,pos,13669
+Santa Cruz & vicinity,2018Q3,neg,224
+Santa Cruz & vicinity,2018Q3,neu,174
+Santa Cruz & vicinity,2018Q4,pos,8407
+Santa Cruz & vicinity,2018Q4,neu,126
+Santa Cruz & vicinity,2018Q4,neg,111
+Santa Cruz & vicinity,2019Q1,pos,7651
+Santa Cruz & vicinity,2019Q1,neu,108
+Santa Cruz & vicinity,2019Q1,neg,88
+Santa Cruz & vicinity,2019Q2,pos,11620
+Santa Cruz & vicinity,2019Q2,neg,194
+Santa Cruz & vicinity,2019Q2,neu,138
+Santa Cruz & vicinity,2019Q3,pos,13845
+Santa Cruz & vicinity,2019Q3,neg,212
+Santa Cruz & vicinity,2019Q3,neu,185
+Santa Cruz & vicinity,2019Q4,pos,8789
+Santa Cruz & vicinity,2019Q4,neu,143
+Santa Cruz & vicinity,2019Q4,neg,110
+Santa Cruz & vicinity,2020Q1,pos,5303
+Santa Cruz & vicinity,2020Q1,neu,81
+Santa Cruz & vicinity,2020Q1,neg,70
+Santa Cruz & vicinity,2020Q2,pos,2707
+Santa Cruz & vicinity,2020Q2,neg,55
+Santa Cruz & vicinity,2020Q2,neu,21
+Santa Cruz & vicinity,2020Q3,pos,7464
+Santa Cruz & vicinity,2020Q3,neg,116
+Santa Cruz & vicinity,2020Q3,neu,58
+Santa Cruz & vicinity,2020Q4,pos,7179
+Santa Cruz & vicinity,2020Q4,neg,107
+Santa Cruz & vicinity,2020Q4,neu,62
+Santa Cruz & vicinity,2021Q1,pos,3482
+Santa Cruz & vicinity,2021Q1,neg,34
+Santa Cruz & vicinity,2021Q1,neu,28
+Seattle,2018Q1,pos,31126
+Seattle,2018Q1,neu,531
+Seattle,2018Q1,neg,495
+Seattle,2018Q2,pos,47339
+Seattle,2018Q2,neg,859
+Seattle,2018Q2,neu,636
+Seattle,2018Q3,pos,65209
+Seattle,2018Q3,neg,1306
+Seattle,2018Q3,neu,811
+Seattle,2018Q4,pos,37632
+Seattle,2018Q4,neg,714
+Seattle,2018Q4,neu,498
+Seattle,2019Q1,pos,28081
+Seattle,2019Q1,neg,531
+Seattle,2019Q1,neu,351
+Seattle,2019Q2,pos,42418
+Seattle,2019Q2,neg,840
+Seattle,2019Q2,neu,493
+Seattle,2019Q3,pos,55724
+Seattle,2019Q3,neg,1298
+Seattle,2019Q3,neu,713
+Seattle,2019Q4,pos,34490
+Seattle,2019Q4,neg,722
+Seattle,2019Q4,neu,451
+Seattle,2020Q1,pos,14504
+Seattle,2020Q1,neg,299
+Seattle,2020Q1,neu,170
+Seattle,2020Q2,pos,4160
+Seattle,2020Q2,neg,64
+Seattle,2020Q2,neu,49
+Seattle,2020Q3,pos,12106
+Seattle,2020Q3,neg,230
+Seattle,2020Q3,neu,121
+Seattle,2020Q4,pos,11510
+Seattle,2020Q4,neg,195
+Seattle,2020Q4,neu,116
+Seattle,2021Q1,pos,5111
+Seattle,2021Q1,neg,98
+Seattle,2021Q1,neu,54
+Twin Cities,2018Q1,pos,15033
+Twin Cities,2018Q1,neg,543
+Twin Cities,2018Q1,neu,337
+Twin Cities,2018Q2,pos,19870
+Twin Cities,2018Q2,neg,778
+Twin Cities,2018Q2,neu,297
+Twin Cities,2018Q3,pos,26362
+Twin Cities,2018Q3,neg,1068
+Twin Cities,2018Q3,neu,364
+Twin Cities,2018Q4,pos,19405
+Twin Cities,2018Q4,neg,647
+Twin Cities,2018Q4,neu,264
+Twin Cities,2019Q1,pos,15330
+Twin Cities,2019Q1,neg,719
+Twin Cities,2019Q1,neu,201
+Twin Cities,2019Q2,pos,22968
+Twin Cities,2019Q2,neg,980
+Twin Cities,2019Q2,neu,315
+Twin Cities,2019Q3,pos,28102
+Twin Cities,2019Q3,neg,1231
+Twin Cities,2019Q3,neu,368
+Twin Cities,2019Q4,pos,20655
+Twin Cities,2019Q4,neg,777
+Twin Cities,2019Q4,neu,317
+Twin Cities,2020Q1,pos,10455
+Twin Cities,2020Q1,neg,475
+Twin Cities,2020Q1,neu,167
+Twin Cities,2020Q2,pos,4562
+Twin Cities,2020Q2,neg,123
+Twin Cities,2020Q2,neu,66
+Twin Cities,2020Q3,pos,10521
+Twin Cities,2020Q3,neg,293
+Twin Cities,2020Q3,neu,117
+Twin Cities,2020Q4,pos,8486
+Twin Cities,2020Q4,neg,195
+Twin Cities,2020Q4,neu,115
+Twin Cities,2021Q1,pos,3936
+Twin Cities,2021Q1,neg,133
+Twin Cities,2021Q1,neu,46
+Washington DC,2018Q1,pos,32059
+Washington DC,2018Q1,neg,785
+Washington DC,2018Q1,neu,658
+Washington DC,2018Q2,pos,46159
+Washington DC,2018Q2,neg,1421
+Washington DC,2018Q2,neu,737
+Washington DC,2018Q3,pos,41578
+Washington DC,2018Q3,neg,1283
+Washington DC,2018Q3,neu,608
+Washington DC,2018Q4,pos,38861
+Washington DC,2018Q4,neg,1141
+Washington DC,2018Q4,neu,567
+Washington DC,2019Q1,pos,32233
+Washington DC,2019Q1,neg,898
+Washington DC,2019Q1,neu,387
+Washington DC,2019Q2,pos,49522
+Washington DC,2019Q2,neg,1518
+Washington DC,2019Q2,neu,646
+Washington DC,2019Q3,pos,43848
+Washington DC,2019Q3,neg,1424
+Washington DC,2019Q3,neu,593
+Washington DC,2019Q4,pos,40053
+Washington DC,2019Q4,neg,1279
+Washington DC,2019Q4,neu,673
+Washington DC,2020Q1,pos,21443
+Washington DC,2020Q1,neg,579
+Washington DC,2020Q1,neu,377
+Washington DC,2020Q2,pos,4270
+Washington DC,2020Q2,neg,123
+Washington DC,2020Q2,neu,51
+Washington DC,2020Q3,pos,12381
+Washington DC,2020Q3,neg,387
+Washington DC,2020Q3,neu,158
+Washington DC,2020Q4,pos,12861
+Washington DC,2020Q4,neg,341
+Washington DC,2020Q4,neu,143
+Washington DC,2021Q1,pos,5117
+Washington DC,2021Q1,neg,158
+Washington DC,2021Q1,neu,52

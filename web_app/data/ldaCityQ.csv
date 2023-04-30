@@ -1,0 +1,2185 @@
+city,quarter,best topic,frequency
+Asheville,2018Q1,1,7526
+Asheville,2018Q1,2,2120
+Asheville,2018Q1,3,1216
+Asheville,2018Q1,5,747
+Asheville,2018Q1,6,141
+Asheville,2018Q1,4,105
+Asheville,2018Q1,8,92
+Asheville,2018Q1,7,85
+Asheville,2018Q2,1,11159
+Asheville,2018Q2,2,3319
+Asheville,2018Q2,3,1914
+Asheville,2018Q2,5,1157
+Asheville,2018Q2,6,262
+Asheville,2018Q2,7,142
+Asheville,2018Q2,4,135
+Asheville,2018Q2,8,97
+Asheville,2018Q3,1,12825
+Asheville,2018Q3,2,3524
+Asheville,2018Q3,3,2215
+Asheville,2018Q3,5,1548
+Asheville,2018Q3,6,245
+Asheville,2018Q3,4,189
+Asheville,2018Q3,7,162
+Asheville,2018Q3,8,119
+Asheville,2018Q4,1,12786
+Asheville,2018Q4,2,3247
+Asheville,2018Q4,3,2054
+Asheville,2018Q4,5,1542
+Asheville,2018Q4,6,231
+Asheville,2018Q4,4,193
+Asheville,2018Q4,8,159
+Asheville,2018Q4,7,132
+Asheville,2019Q1,1,9539
+Asheville,2019Q1,2,2551
+Asheville,2019Q1,3,1515
+Asheville,2019Q1,5,1201
+Asheville,2019Q1,6,154
+Asheville,2019Q1,4,132
+Asheville,2019Q1,8,100
+Asheville,2019Q1,7,94
+Asheville,2019Q2,1,13170
+Asheville,2019Q2,2,3711
+Asheville,2019Q2,3,2229
+Asheville,2019Q2,5,1603
+Asheville,2019Q2,6,244
+Asheville,2019Q2,4,217
+Asheville,2019Q2,8,146
+Asheville,2019Q2,7,137
+Asheville,2019Q3,1,14581
+Asheville,2019Q3,2,3906
+Asheville,2019Q3,3,2432
+Asheville,2019Q3,5,1692
+Asheville,2019Q3,6,298
+Asheville,2019Q3,4,211
+Asheville,2019Q3,8,156
+Asheville,2019Q3,7,141
+Asheville,2019Q4,1,15384
+Asheville,2019Q4,2,3864
+Asheville,2019Q4,3,2463
+Asheville,2019Q4,5,1924
+Asheville,2019Q4,4,293
+Asheville,2019Q4,6,258
+Asheville,2019Q4,8,158
+Asheville,2019Q4,7,121
+Asheville,2020Q1,1,8547
+Asheville,2020Q1,2,2182
+Asheville,2020Q1,3,1380
+Asheville,2020Q1,5,1127
+Asheville,2020Q1,4,152
+Asheville,2020Q1,6,119
+Asheville,2020Q1,8,113
+Asheville,2020Q1,7,112
+Asheville,2020Q2,1,3368
+Asheville,2020Q2,2,794
+Asheville,2020Q2,3,466
+Asheville,2020Q2,5,423
+Asheville,2020Q2,4,51
+Asheville,2020Q2,6,45
+Asheville,2020Q2,8,45
+Asheville,2020Q2,7,17
+Asheville,2020Q3,1,10282
+Asheville,2020Q3,2,2741
+Asheville,2020Q3,3,1559
+Asheville,2020Q3,5,1282
+Asheville,2020Q3,6,165
+Asheville,2020Q3,4,158
+Asheville,2020Q3,8,145
+Asheville,2020Q3,7,86
+Asheville,2020Q4,1,11629
+Asheville,2020Q4,2,3081
+Asheville,2020Q4,3,1891
+Asheville,2020Q4,5,1488
+Asheville,2020Q4,4,190
+Asheville,2020Q4,6,158
+Asheville,2020Q4,8,154
+Asheville,2020Q4,7,76
+Asheville,2021Q1,1,3947
+Asheville,2021Q1,2,909
+Asheville,2021Q1,3,597
+Asheville,2021Q1,5,533
+Asheville,2021Q1,4,71
+Asheville,2021Q1,8,63
+Asheville,2021Q1,6,60
+Asheville,2021Q1,7,30
+Austin,2018Q1,1,21466
+Austin,2018Q1,2,5829
+Austin,2018Q1,3,3273
+Austin,2018Q1,5,2869
+Austin,2018Q1,7,550
+Austin,2018Q1,4,334
+Austin,2018Q1,6,295
+Austin,2018Q1,8,189
+Austin,2018Q2,1,23616
+Austin,2018Q2,2,6303
+Austin,2018Q2,3,3495
+Austin,2018Q2,5,3094
+Austin,2018Q2,7,443
+Austin,2018Q2,4,335
+Austin,2018Q2,6,286
+Austin,2018Q2,8,213
+Austin,2018Q3,1,22929
+Austin,2018Q3,2,5801
+Austin,2018Q3,5,3479
+Austin,2018Q3,3,3225
+Austin,2018Q3,7,440
+Austin,2018Q3,4,395
+Austin,2018Q3,6,278
+Austin,2018Q3,8,197
+Austin,2018Q4,1,24239
+Austin,2018Q4,2,5981
+Austin,2018Q4,5,4059
+Austin,2018Q4,3,3385
+Austin,2018Q4,4,475
+Austin,2018Q4,7,385
+Austin,2018Q4,6,278
+Austin,2018Q4,8,214
+Austin,2019Q1,1,22556
+Austin,2019Q1,2,5577
+Austin,2019Q1,5,3589
+Austin,2019Q1,3,3103
+Austin,2019Q1,4,373
+Austin,2019Q1,7,326
+Austin,2019Q1,6,235
+Austin,2019Q1,8,199
+Austin,2019Q2,1,26694
+Austin,2019Q2,2,6766
+Austin,2019Q2,5,4070
+Austin,2019Q2,3,3930
+Austin,2019Q2,4,495
+Austin,2019Q2,6,326
+Austin,2019Q2,7,326
+Austin,2019Q2,8,264
+Austin,2019Q3,1,26596
+Austin,2019Q3,2,6331
+Austin,2019Q3,5,4367
+Austin,2019Q3,3,3744
+Austin,2019Q3,4,487
+Austin,2019Q3,7,384
+Austin,2019Q3,8,283
+Austin,2019Q3,6,254
+Austin,2019Q4,1,27381
+Austin,2019Q4,2,6693
+Austin,2019Q4,5,4856
+Austin,2019Q4,3,4081
+Austin,2019Q4,4,575
+Austin,2019Q4,7,403
+Austin,2019Q4,6,317
+Austin,2019Q4,8,288
+Austin,2020Q1,1,15845
+Austin,2020Q1,2,3925
+Austin,2020Q1,5,2681
+Austin,2020Q1,3,2210
+Austin,2020Q1,4,316
+Austin,2020Q1,7,292
+Austin,2020Q1,6,212
+Austin,2020Q1,8,189
+Austin,2020Q2,1,6834
+Austin,2020Q2,2,1489
+Austin,2020Q2,5,1238
+Austin,2020Q2,3,710
+Austin,2020Q2,4,151
+Austin,2020Q2,8,123
+Austin,2020Q2,6,68
+Austin,2020Q2,7,43
+Austin,2020Q3,1,12589
+Austin,2020Q3,2,2878
+Austin,2020Q3,5,2237
+Austin,2020Q3,3,1407
+Austin,2020Q3,4,240
+Austin,2020Q3,8,178
+Austin,2020Q3,6,117
+Austin,2020Q3,7,106
+Austin,2020Q4,1,13004
+Austin,2020Q4,2,2996
+Austin,2020Q4,5,2294
+Austin,2020Q4,3,1627
+Austin,2020Q4,4,278
+Austin,2020Q4,8,178
+Austin,2020Q4,6,141
+Austin,2020Q4,7,96
+Austin,2021Q1,1,5185
+Austin,2021Q1,2,1239
+Austin,2021Q1,5,901
+Austin,2021Q1,3,621
+Austin,2021Q1,4,95
+Austin,2021Q1,8,72
+Austin,2021Q1,6,42
+Austin,2021Q1,7,29
+Broward County,2018Q1,1,17323
+Broward County,2018Q1,2,4519
+Broward County,2018Q1,5,2066
+Broward County,2018Q1,3,1858
+Broward County,2018Q1,7,482
+Broward County,2018Q1,6,431
+Broward County,2018Q1,4,258
+Broward County,2018Q1,8,142
+Broward County,2018Q2,1,15763
+Broward County,2018Q2,2,3869
+Broward County,2018Q2,5,2029
+Broward County,2018Q2,3,1743
+Broward County,2018Q2,7,365
+Broward County,2018Q2,6,361
+Broward County,2018Q2,4,244
+Broward County,2018Q2,8,165
+Broward County,2018Q3,1,14483
+Broward County,2018Q3,2,3704
+Broward County,2018Q3,5,1950
+Broward County,2018Q3,3,1507
+Broward County,2018Q3,7,311
+Broward County,2018Q3,6,300
+Broward County,2018Q3,4,217
+Broward County,2018Q3,8,147
+Broward County,2018Q4,1,18037
+Broward County,2018Q4,2,4227
+Broward County,2018Q4,5,2805
+Broward County,2018Q4,3,1855
+Broward County,2018Q4,7,475
+Broward County,2018Q4,6,404
+Broward County,2018Q4,4,307
+Broward County,2018Q4,8,198
+Broward County,2019Q1,1,26229
+Broward County,2019Q1,2,6433
+Broward County,2019Q1,5,4473
+Broward County,2019Q1,3,2976
+Broward County,2019Q1,7,679
+Broward County,2019Q1,6,580
+Broward County,2019Q1,4,572
+Broward County,2019Q1,8,331
+Broward County,2019Q2,1,21603
+Broward County,2019Q2,2,4845
+Broward County,2019Q2,5,3612
+Broward County,2019Q2,3,2210
+Broward County,2019Q2,7,419
+Broward County,2019Q2,6,375
+Broward County,2019Q2,4,341
+Broward County,2019Q2,8,249
+Broward County,2019Q3,1,18483
+Broward County,2019Q3,2,4038
+Broward County,2019Q3,5,2962
+Broward County,2019Q3,3,1724
+Broward County,2019Q3,4,314
+Broward County,2019Q3,7,305
+Broward County,2019Q3,6,278
+Broward County,2019Q3,8,205
+Broward County,2019Q4,1,22910
+Broward County,2019Q4,2,5095
+Broward County,2019Q4,5,4219
+Broward County,2019Q4,3,2370
+Broward County,2019Q4,7,548
+Broward County,2019Q4,4,476
+Broward County,2019Q4,6,410
+Broward County,2019Q4,8,273
+Broward County,2020Q1,1,21335
+Broward County,2020Q1,2,4765
+Broward County,2020Q1,5,4042
+Broward County,2020Q1,3,2356
+Broward County,2020Q1,7,505
+Broward County,2020Q1,4,489
+Broward County,2020Q1,6,388
+Broward County,2020Q1,8,308
+Broward County,2020Q2,1,6082
+Broward County,2020Q2,5,1187
+Broward County,2020Q2,2,1139
+Broward County,2020Q2,3,499
+Broward County,2020Q2,4,108
+Broward County,2020Q2,8,77
+Broward County,2020Q2,7,55
+Broward County,2020Q2,6,48
+Broward County,2020Q3,1,12926
+Broward County,2020Q3,2,2497
+Broward County,2020Q3,5,2491
+Broward County,2020Q3,3,1087
+Broward County,2020Q3,4,222
+Broward County,2020Q3,6,182
+Broward County,2020Q3,8,178
+Broward County,2020Q3,7,110
+Broward County,2020Q4,1,14440
+Broward County,2020Q4,5,2955
+Broward County,2020Q4,2,2871
+Broward County,2020Q4,3,1285
+Broward County,2020Q4,4,305
+Broward County,2020Q4,8,186
+Broward County,2020Q4,6,170
+Broward County,2020Q4,7,155
+Broward County,2021Q1,1,11653
+Broward County,2021Q1,2,2647
+Broward County,2021Q1,5,2563
+Broward County,2021Q1,3,1211
+Broward County,2021Q1,4,238
+Broward County,2021Q1,6,193
+Broward County,2021Q1,8,162
+Broward County,2021Q1,7,118
+Chicago,2018Q1,1,18061
+Chicago,2018Q1,2,5995
+Chicago,2018Q1,3,2973
+Chicago,2018Q1,5,2042
+Chicago,2018Q1,7,349
+Chicago,2018Q1,6,268
+Chicago,2018Q1,4,147
+Chicago,2018Q1,8,110
+Chicago,2018Q2,1,30926
+Chicago,2018Q2,2,10659
+Chicago,2018Q2,3,5200
+Chicago,2018Q2,5,3835
+Chicago,2018Q2,7,530
+Chicago,2018Q2,4,426
+Chicago,2018Q2,6,392
+Chicago,2018Q2,8,197
+Chicago,2018Q3,1,39175
+Chicago,2018Q3,2,12981
+Chicago,2018Q3,3,6619
+Chicago,2018Q3,5,5601
+Chicago,2018Q3,6,580
+Chicago,2018Q3,4,578
+Chicago,2018Q3,7,567
+Chicago,2018Q3,8,267
+Chicago,2018Q4,1,31556
+Chicago,2018Q4,2,10083
+Chicago,2018Q4,3,5198
+Chicago,2018Q4,5,4917
+Chicago,2018Q4,4,506
+Chicago,2018Q4,7,404
+Chicago,2018Q4,6,398
+Chicago,2018Q4,8,173
+Chicago,2019Q1,1,21115
+Chicago,2019Q1,2,6233
+Chicago,2019Q1,3,3111
+Chicago,2019Q1,5,3077
+Chicago,2019Q1,4,305
+Chicago,2019Q1,7,287
+Chicago,2019Q1,6,270
+Chicago,2019Q1,8,131
+Chicago,2019Q2,1,34722
+Chicago,2019Q2,2,10860
+Chicago,2019Q2,3,5834
+Chicago,2019Q2,5,5487
+Chicago,2019Q2,4,622
+Chicago,2019Q2,6,463
+Chicago,2019Q2,7,439
+Chicago,2019Q2,8,229
+Chicago,2019Q3,1,39172
+Chicago,2019Q3,2,12038
+Chicago,2019Q3,3,6380
+Chicago,2019Q3,5,6140
+Chicago,2019Q3,4,630
+Chicago,2019Q3,7,509
+Chicago,2019Q3,6,494
+Chicago,2019Q3,8,270
+Chicago,2019Q4,1,31994
+Chicago,2019Q4,2,9370
+Chicago,2019Q4,5,5338
+Chicago,2019Q4,3,4983
+Chicago,2019Q4,4,607
+Chicago,2019Q4,7,456
+Chicago,2019Q4,6,374
+Chicago,2019Q4,8,204
+Chicago,2020Q1,1,14102
+Chicago,2020Q1,2,3751
+Chicago,2020Q1,5,2294
+Chicago,2020Q1,3,1886
+Chicago,2020Q1,7,257
+Chicago,2020Q1,4,232
+Chicago,2020Q1,6,123
+Chicago,2020Q1,8,105
+Chicago,2020Q2,1,3348
+Chicago,2020Q2,2,800
+Chicago,2020Q2,5,762
+Chicago,2020Q2,3,346
+Chicago,2020Q2,4,79
+Chicago,2020Q2,8,28
+Chicago,2020Q2,7,25
+Chicago,2020Q2,6,15
+Chicago,2020Q3,1,10082
+Chicago,2020Q3,2,2566
+Chicago,2020Q3,5,2116
+Chicago,2020Q3,3,1167
+Chicago,2020Q3,4,211
+Chicago,2020Q3,7,82
+Chicago,2020Q3,8,76
+Chicago,2020Q3,6,58
+Chicago,2020Q4,1,8435
+Chicago,2020Q4,2,2278
+Chicago,2020Q4,5,1734
+Chicago,2020Q4,3,1054
+Chicago,2020Q4,4,181
+Chicago,2020Q4,8,58
+Chicago,2020Q4,7,55
+Chicago,2020Q4,6,54
+Chicago,2021Q1,1,3851
+Chicago,2021Q1,2,895
+Chicago,2021Q1,5,755
+Chicago,2021Q1,3,467
+Chicago,2021Q1,4,66
+Chicago,2021Q1,6,38
+Chicago,2021Q1,8,36
+Chicago,2021Q1,7,29
+Clark County NV,2018Q1,1,11287
+Clark County NV,2018Q1,2,2710
+Clark County NV,2018Q1,5,2217
+Clark County NV,2018Q1,3,1715
+Clark County NV,2018Q1,4,330
+Clark County NV,2018Q1,7,281
+Clark County NV,2018Q1,6,115
+Clark County NV,2018Q1,8,111
+Clark County NV,2018Q2,1,13934
+Clark County NV,2018Q2,2,3286
+Clark County NV,2018Q2,5,2702
+Clark County NV,2018Q2,3,2008
+Clark County NV,2018Q2,4,358
+Clark County NV,2018Q2,7,333
+Clark County NV,2018Q2,6,171
+Clark County NV,2018Q2,8,140
+Clark County NV,2018Q3,1,13955
+Clark County NV,2018Q3,2,3175
+Clark County NV,2018Q3,5,2991
+Clark County NV,2018Q3,3,2000
+Clark County NV,2018Q3,4,395
+Clark County NV,2018Q3,7,279
+Clark County NV,2018Q3,8,153
+Clark County NV,2018Q3,6,146
+Clark County NV,2018Q4,1,13206
+Clark County NV,2018Q4,5,3056
+Clark County NV,2018Q4,2,3037
+Clark County NV,2018Q4,3,1990
+Clark County NV,2018Q4,4,424
+Clark County NV,2018Q4,7,247
+Clark County NV,2018Q4,6,144
+Clark County NV,2018Q4,8,134
+Clark County NV,2019Q1,1,16621
+Clark County NV,2019Q1,5,4183
+Clark County NV,2019Q1,2,3704
+Clark County NV,2019Q1,3,2440
+Clark County NV,2019Q1,4,495
+Clark County NV,2019Q1,7,296
+Clark County NV,2019Q1,8,167
+Clark County NV,2019Q1,6,158
+Clark County NV,2019Q2,1,18782
+Clark County NV,2019Q2,5,4527
+Clark County NV,2019Q2,2,4286
+Clark County NV,2019Q2,3,2628
+Clark County NV,2019Q2,4,620
+Clark County NV,2019Q2,7,360
+Clark County NV,2019Q2,8,177
+Clark County NV,2019Q2,6,175
+Clark County NV,2019Q3,1,20900
+Clark County NV,2019Q3,5,5044
+Clark County NV,2019Q3,2,4521
+Clark County NV,2019Q3,3,2902
+Clark County NV,2019Q3,4,654
+Clark County NV,2019Q3,7,413
+Clark County NV,2019Q3,8,219
+Clark County NV,2019Q3,6,165
+Clark County NV,2019Q4,1,22539
+Clark County NV,2019Q4,5,5596
+Clark County NV,2019Q4,2,4966
+Clark County NV,2019Q4,3,3219
+Clark County NV,2019Q4,4,794
+Clark County NV,2019Q4,7,557
+Clark County NV,2019Q4,8,216
+Clark County NV,2019Q4,6,191
+Clark County NV,2020Q1,1,15104
+Clark County NV,2020Q1,5,3899
+Clark County NV,2020Q1,2,3236
+Clark County NV,2020Q1,3,2181
+Clark County NV,2020Q1,4,517
+Clark County NV,2020Q1,7,360
+Clark County NV,2020Q1,8,175
+Clark County NV,2020Q1,6,122
+Clark County NV,2020Q2,1,7006
+Clark County NV,2020Q2,5,1646
+Clark County NV,2020Q2,2,1225
+Clark County NV,2020Q2,3,708
+Clark County NV,2020Q2,4,219
+Clark County NV,2020Q2,8,105
+Clark County NV,2020Q2,6,67
+Clark County NV,2020Q2,7,55
+Clark County NV,2020Q3,1,15714
+Clark County NV,2020Q3,5,3865
+Clark County NV,2020Q3,2,2953
+Clark County NV,2020Q3,3,1616
+Clark County NV,2020Q3,4,473
+Clark County NV,2020Q3,8,215
+Clark County NV,2020Q3,7,136
+Clark County NV,2020Q3,6,100
+Clark County NV,2020Q4,1,14183
+Clark County NV,2020Q4,5,3727
+Clark County NV,2020Q4,2,2868
+Clark County NV,2020Q4,3,1629
+Clark County NV,2020Q4,4,433
+Clark County NV,2020Q4,8,185
+Clark County NV,2020Q4,7,116
+Clark County NV,2020Q4,6,108
+Clark County NV,2021Q1,1,7093
+Clark County NV,2021Q1,5,1799
+Clark County NV,2021Q1,2,1415
+Clark County NV,2021Q1,3,779
+Clark County NV,2021Q1,4,226
+Clark County NV,2021Q1,8,101
+Clark County NV,2021Q1,7,60
+Clark County NV,2021Q1,6,50
+Columbus,2018Q1,1,4204
+Columbus,2018Q1,2,1068
+Columbus,2018Q1,3,581
+Columbus,2018Q1,5,463
+Columbus,2018Q1,4,69
+Columbus,2018Q1,6,49
+Columbus,2018Q1,7,41
+Columbus,2018Q1,8,33
+Columbus,2018Q2,1,6068
+Columbus,2018Q2,2,1450
+Columbus,2018Q2,3,819
+Columbus,2018Q2,5,767
+Columbus,2018Q2,4,89
+Columbus,2018Q2,6,71
+Columbus,2018Q2,7,59
+Columbus,2018Q2,8,43
+Columbus,2018Q3,1,6925
+Columbus,2018Q3,2,1698
+Columbus,2018Q3,5,924
+Columbus,2018Q3,3,904
+Columbus,2018Q3,4,119
+Columbus,2018Q3,7,81
+Columbus,2018Q3,6,79
+Columbus,2018Q3,8,44
+Columbus,2018Q4,1,6404
+Columbus,2018Q4,2,1575
+Columbus,2018Q4,5,1036
+Columbus,2018Q4,3,900
+Columbus,2018Q4,4,112
+Columbus,2018Q4,7,63
+Columbus,2018Q4,8,62
+Columbus,2018Q4,6,48
+Columbus,2019Q1,1,5542
+Columbus,2019Q1,2,1209
+Columbus,2019Q1,5,923
+Columbus,2019Q1,3,710
+Columbus,2019Q1,4,94
+Columbus,2019Q1,7,64
+Columbus,2019Q1,6,50
+Columbus,2019Q1,8,29
+Columbus,2019Q2,1,7310
+Columbus,2019Q2,2,1706
+Columbus,2019Q2,5,1184
+Columbus,2019Q2,3,1028
+Columbus,2019Q2,4,154
+Columbus,2019Q2,6,85
+Columbus,2019Q2,7,60
+Columbus,2019Q2,8,43
+Columbus,2019Q3,1,8696
+Columbus,2019Q3,2,1918
+Columbus,2019Q3,5,1437
+Columbus,2019Q3,3,1099
+Columbus,2019Q3,4,166
+Columbus,2019Q3,6,108
+Columbus,2019Q3,7,85
+Columbus,2019Q3,8,55
+Columbus,2019Q4,1,8118
+Columbus,2019Q4,2,1792
+Columbus,2019Q4,5,1586
+Columbus,2019Q4,3,1085
+Columbus,2019Q4,4,197
+Columbus,2019Q4,8,79
+Columbus,2019Q4,7,78
+Columbus,2019Q4,6,67
+Columbus,2020Q1,1,5160
+Columbus,2020Q1,2,1061
+Columbus,2020Q1,5,1028
+Columbus,2020Q1,3,607
+Columbus,2020Q1,4,112
+Columbus,2020Q1,7,62
+Columbus,2020Q1,8,46
+Columbus,2020Q1,6,36
+Columbus,2020Q2,1,2275
+Columbus,2020Q2,5,568
+Columbus,2020Q2,2,385
+Columbus,2020Q2,3,206
+Columbus,2020Q2,4,57
+Columbus,2020Q2,8,23
+Columbus,2020Q2,6,17
+Columbus,2020Q2,7,15
+Columbus,2020Q3,1,4388
+Columbus,2020Q3,5,984
+Columbus,2020Q3,2,962
+Columbus,2020Q3,3,530
+Columbus,2020Q3,4,121
+Columbus,2020Q3,8,51
+Columbus,2020Q3,6,34
+Columbus,2020Q3,7,33
+Columbus,2020Q4,1,4247
+Columbus,2020Q4,5,1048
+Columbus,2020Q4,2,899
+Columbus,2020Q4,3,456
+Columbus,2020Q4,4,99
+Columbus,2020Q4,8,58
+Columbus,2020Q4,6,42
+Columbus,2020Q4,7,38
+Columbus,2021Q1,1,2381
+Columbus,2021Q1,5,534
+Columbus,2021Q1,2,468
+Columbus,2021Q1,3,215
+Columbus,2021Q1,4,60
+Columbus,2021Q1,8,22
+Columbus,2021Q1,6,20
+Columbus,2021Q1,7,20
+Dallas,2018Q1,1,5199
+Dallas,2018Q1,2,1366
+Dallas,2018Q1,3,609
+Dallas,2018Q1,5,176
+Dallas,2018Q1,6,68
+Dallas,2018Q1,7,36
+Dallas,2018Q1,8,3
+Dallas,2018Q1,4,0
+Dallas,2018Q2,1,5122
+Dallas,2018Q2,2,1563
+Dallas,2018Q2,3,699
+Dallas,2018Q2,5,180
+Dallas,2018Q2,6,129
+Dallas,2018Q2,7,33
+Dallas,2018Q2,8,14
+Dallas,2018Q2,4,0
+Dallas,2018Q3,1,5765
+Dallas,2018Q3,2,1479
+Dallas,2018Q3,3,552
+Dallas,2018Q3,5,193
+Dallas,2018Q3,6,106
+Dallas,2018Q3,7,59
+Dallas,2018Q3,8,11
+Dallas,2018Q3,4,0
+Dallas,2018Q4,1,4833
+Dallas,2018Q4,2,1255
+Dallas,2018Q4,3,670
+Dallas,2018Q4,5,168
+Dallas,2018Q4,6,90
+Dallas,2018Q4,7,43
+Dallas,2018Q4,8,3
+Dallas,2018Q4,4,0
+Dallas,2019Q1,1,5660
+Dallas,2019Q1,2,1483
+Dallas,2019Q1,3,674
+Dallas,2019Q1,5,156
+Dallas,2019Q1,6,71
+Dallas,2019Q1,7,21
+Dallas,2019Q1,8,2
+Dallas,2019Q1,4,0
+Dallas,2019Q2,1,6149
+Dallas,2019Q2,2,1485
+Dallas,2019Q2,3,784
+Dallas,2019Q2,5,155
+Dallas,2019Q2,6,114
+Dallas,2019Q2,7,50
+Dallas,2019Q2,8,3
+Dallas,2019Q2,4,0
+Dallas,2019Q3,1,5780
+Dallas,2019Q3,2,1460
+Dallas,2019Q3,3,707
+Dallas,2019Q3,5,180
+Dallas,2019Q3,6,88
+Dallas,2019Q3,7,11
+Dallas,2019Q3,8,11
+Dallas,2019Q3,4,0
+Dallas,2019Q4,1,5037
+Dallas,2019Q4,2,1218
+Dallas,2019Q4,3,697
+Dallas,2019Q4,5,125
+Dallas,2019Q4,6,49
+Dallas,2019Q4,7,19
+Dallas,2019Q4,4,0
+Dallas,2019Q4,8,0
+Dallas,2020Q1,1,3949
+Dallas,2020Q1,2,894
+Dallas,2020Q1,3,399
+Dallas,2020Q1,5,130
+Dallas,2020Q1,6,70
+Dallas,2020Q1,7,19
+Dallas,2020Q1,8,11
+Dallas,2020Q1,4,0
+Dallas,2020Q2,1,543
+Dallas,2020Q2,2,97
+Dallas,2020Q2,3,32
+Dallas,2020Q2,5,12
+Dallas,2020Q2,4,0
+Dallas,2020Q2,6,0
+Dallas,2020Q2,7,0
+Dallas,2020Q2,8,0
+Dallas,2020Q3,1,1251
+Dallas,2020Q3,2,279
+Dallas,2020Q3,3,103
+Dallas,2020Q3,5,17
+Dallas,2020Q3,6,8
+Dallas,2020Q3,4,0
+Dallas,2020Q3,7,0
+Dallas,2020Q3,8,0
+Dallas,2020Q4,1,1518
+Dallas,2020Q4,2,361
+Dallas,2020Q4,3,124
+Dallas,2020Q4,5,43
+Dallas,2020Q4,6,25
+Dallas,2020Q4,4,0
+Dallas,2020Q4,7,0
+Dallas,2020Q4,8,0
+Dallas,2021Q1,1,1054
+Dallas,2021Q1,2,299
+Dallas,2021Q1,3,78
+Dallas,2021Q1,6,16
+Dallas,2021Q1,8,8
+Dallas,2021Q1,7,7
+Dallas,2021Q1,5,2
+Dallas,2021Q1,4,0
+Denver,2018Q1,1,12314
+Denver,2018Q1,2,3183
+Denver,2018Q1,3,1790
+Denver,2018Q1,5,1737
+Denver,2018Q1,7,181
+Denver,2018Q1,4,160
+Denver,2018Q1,6,160
+Denver,2018Q1,8,109
+Denver,2018Q2,1,17531
+Denver,2018Q2,2,4944
+Denver,2018Q2,3,2653
+Denver,2018Q2,5,2479
+Denver,2018Q2,4,283
+Denver,2018Q2,7,263
+Denver,2018Q2,6,205
+Denver,2018Q2,8,134
+Denver,2018Q3,1,22800
+Denver,2018Q3,2,6149
+Denver,2018Q3,5,3733
+Denver,2018Q3,3,3558
+Denver,2018Q3,4,437
+Denver,2018Q3,7,283
+Denver,2018Q3,6,277
+Denver,2018Q3,8,177
+Denver,2018Q4,1,16582
+Denver,2018Q4,2,4277
+Denver,2018Q4,5,2959
+Denver,2018Q4,3,2372
+Denver,2018Q4,4,349
+Denver,2018Q4,7,206
+Denver,2018Q4,6,155
+Denver,2018Q4,8,154
+Denver,2019Q1,1,13762
+Denver,2019Q1,2,3298
+Denver,2019Q1,5,2347
+Denver,2019Q1,3,1837
+Denver,2019Q1,4,236
+Denver,2019Q1,7,151
+Denver,2019Q1,6,139
+Denver,2019Q1,8,113
+Denver,2019Q2,1,20039
+Denver,2019Q2,2,5053
+Denver,2019Q2,5,3273
+Denver,2019Q2,3,2942
+Denver,2019Q2,4,411
+Denver,2019Q2,7,229
+Denver,2019Q2,6,203
+Denver,2019Q2,8,190
+Denver,2019Q3,1,23944
+Denver,2019Q3,2,6393
+Denver,2019Q3,5,3946
+Denver,2019Q3,3,3633
+Denver,2019Q3,4,487
+Denver,2019Q3,7,248
+Denver,2019Q3,6,231
+Denver,2019Q3,8,219
+Denver,2019Q4,1,18148
+Denver,2019Q4,2,4395
+Denver,2019Q4,5,3109
+Denver,2019Q4,3,2674
+Denver,2019Q4,4,434
+Denver,2019Q4,7,232
+Denver,2019Q4,6,185
+Denver,2019Q4,8,165
+Denver,2020Q1,1,9357
+Denver,2020Q1,2,2138
+Denver,2020Q1,5,1583
+Denver,2020Q1,3,1287
+Denver,2020Q1,4,201
+Denver,2020Q1,7,136
+Denver,2020Q1,6,83
+Denver,2020Q1,8,82
+Denver,2020Q2,1,3931
+Denver,2020Q2,2,892
+Denver,2020Q2,5,795
+Denver,2020Q2,3,398
+Denver,2020Q2,4,102
+Denver,2020Q2,8,44
+Denver,2020Q2,6,37
+Denver,2020Q2,7,28
+Denver,2020Q3,1,10782
+Denver,2020Q3,2,2642
+Denver,2020Q3,5,1788
+Denver,2020Q3,3,1413
+Denver,2020Q3,4,216
+Denver,2020Q3,8,109
+Denver,2020Q3,6,90
+Denver,2020Q3,7,66
+Denver,2020Q4,1,9805
+Denver,2020Q4,2,2224
+Denver,2020Q4,5,1753
+Denver,2020Q4,3,1271
+Denver,2020Q4,4,219
+Denver,2020Q4,8,99
+Denver,2020Q4,6,81
+Denver,2020Q4,7,60
+Denver,2021Q1,1,4916
+Denver,2021Q1,2,1052
+Denver,2021Q1,5,912
+Denver,2021Q1,3,590
+Denver,2021Q1,4,105
+Denver,2021Q1,8,45
+Denver,2021Q1,6,37
+Denver,2021Q1,7,20
+Hawaii,2018Q1,1,31843
+Hawaii,2018Q1,2,10221
+Hawaii,2018Q1,3,4713
+Hawaii,2018Q1,5,4476
+Hawaii,2018Q1,6,1120
+Hawaii,2018Q1,7,1067
+Hawaii,2018Q1,4,519
+Hawaii,2018Q1,8,457
+Hawaii,2018Q2,1,33839
+Hawaii,2018Q2,2,10862
+Hawaii,2018Q2,3,5336
+Hawaii,2018Q2,5,4734
+Hawaii,2018Q2,6,1162
+Hawaii,2018Q2,7,1122
+Hawaii,2018Q2,8,516
+Hawaii,2018Q2,4,502
+Hawaii,2018Q3,1,36973
+Hawaii,2018Q3,2,11130
+Hawaii,2018Q3,5,5919
+Hawaii,2018Q3,3,5536
+Hawaii,2018Q3,6,1235
+Hawaii,2018Q3,7,1150
+Hawaii,2018Q3,4,636
+Hawaii,2018Q3,8,552
+Hawaii,2018Q4,1,38103
+Hawaii,2018Q4,2,11206
+Hawaii,2018Q4,5,6413
+Hawaii,2018Q4,3,5528
+Hawaii,2018Q4,6,1229
+Hawaii,2018Q4,7,1213
+Hawaii,2018Q4,4,672
+Hawaii,2018Q4,8,546
+Hawaii,2019Q1,1,35534
+Hawaii,2019Q1,2,10208
+Hawaii,2019Q1,5,5989
+Hawaii,2019Q1,3,5106
+Hawaii,2019Q1,6,1263
+Hawaii,2019Q1,7,1011
+Hawaii,2019Q1,4,664
+Hawaii,2019Q1,8,548
+Hawaii,2019Q2,1,38240
+Hawaii,2019Q2,2,11470
+Hawaii,2019Q2,5,6299
+Hawaii,2019Q2,3,5736
+Hawaii,2019Q2,6,1293
+Hawaii,2019Q2,7,952
+Hawaii,2019Q2,4,706
+Hawaii,2019Q2,8,546
+Hawaii,2019Q3,1,42206
+Hawaii,2019Q3,2,12000
+Hawaii,2019Q3,5,7274
+Hawaii,2019Q3,3,6043
+Hawaii,2019Q3,6,1284
+Hawaii,2019Q3,7,1169
+Hawaii,2019Q3,4,756
+Hawaii,2019Q3,8,649
+Hawaii,2019Q4,1,40682
+Hawaii,2019Q4,2,11635
+Hawaii,2019Q4,5,7376
+Hawaii,2019Q4,3,5963
+Hawaii,2019Q4,7,1434
+Hawaii,2019Q4,6,1174
+Hawaii,2019Q4,4,769
+Hawaii,2019Q4,8,587
+Hawaii,2020Q1,1,32005
+Hawaii,2020Q1,2,9273
+Hawaii,2020Q1,5,5643
+Hawaii,2020Q1,3,4837
+Hawaii,2020Q1,7,1058
+Hawaii,2020Q1,6,1027
+Hawaii,2020Q1,4,709
+Hawaii,2020Q1,8,518
+Hawaii,2020Q2,1,1328
+Hawaii,2020Q2,2,298
+Hawaii,2020Q2,5,244
+Hawaii,2020Q2,3,120
+Hawaii,2020Q2,4,26
+Hawaii,2020Q2,6,26
+Hawaii,2020Q2,7,23
+Hawaii,2020Q2,8,19
+Hawaii,2020Q3,1,4130
+Hawaii,2020Q3,2,996
+Hawaii,2020Q3,5,693
+Hawaii,2020Q3,3,483
+Hawaii,2020Q3,6,81
+Hawaii,2020Q3,8,79
+Hawaii,2020Q3,4,78
+Hawaii,2020Q3,7,61
+Hawaii,2020Q4,1,13372
+Hawaii,2020Q4,2,3589
+Hawaii,2020Q4,5,2333
+Hawaii,2020Q4,3,1813
+Hawaii,2020Q4,6,346
+Hawaii,2020Q4,7,223
+Hawaii,2020Q4,4,221
+Hawaii,2020Q4,8,206
+Hawaii,2021Q1,1,8265
+Hawaii,2021Q1,2,2378
+Hawaii,2021Q1,5,1351
+Hawaii,2021Q1,3,1122
+Hawaii,2021Q1,6,226
+Hawaii,2021Q1,7,155
+Hawaii,2021Q1,4,148
+Hawaii,2021Q1,8,127
+Los Angeles,2018Q1,1,73506
+Los Angeles,2018Q1,2,18296
+Los Angeles,2018Q1,5,12692
+Los Angeles,2018Q1,3,9387
+Los Angeles,2018Q1,7,1948
+Los Angeles,2018Q1,4,1553
+Los Angeles,2018Q1,6,833
+Los Angeles,2018Q1,8,740
+Los Angeles,2018Q2,1,79175
+Los Angeles,2018Q2,2,19205
+Los Angeles,2018Q2,5,13118
+Los Angeles,2018Q2,3,10228
+Los Angeles,2018Q2,4,1717
+Los Angeles,2018Q2,7,1637
+Los Angeles,2018Q2,6,932
+Los Angeles,2018Q2,8,804
+Los Angeles,2018Q3,1,94935
+Los Angeles,2018Q3,2,22454
+Los Angeles,2018Q3,5,17511
+Los Angeles,2018Q3,3,11846
+Los Angeles,2018Q3,4,2174
+Los Angeles,2018Q3,7,1766
+Los Angeles,2018Q3,6,1174
+Los Angeles,2018Q3,8,1026
+Los Angeles,2018Q4,1,88672
+Los Angeles,2018Q4,2,20350
+Los Angeles,2018Q4,5,18634
+Los Angeles,2018Q4,3,10920
+Los Angeles,2018Q4,4,2151
+Los Angeles,2018Q4,7,1648
+Los Angeles,2018Q4,6,945
+Los Angeles,2018Q4,8,910
+Los Angeles,2019Q1,1,66735
+Los Angeles,2019Q1,2,14983
+Los Angeles,2019Q1,5,13046
+Los Angeles,2019Q1,3,7891
+Los Angeles,2019Q1,4,1587
+Los Angeles,2019Q1,7,1063
+Los Angeles,2019Q1,8,694
+Los Angeles,2019Q1,6,687
+Los Angeles,2019Q2,1,79938
+Los Angeles,2019Q2,2,18002
+Los Angeles,2019Q2,5,15908
+Los Angeles,2019Q2,3,9641
+Los Angeles,2019Q2,4,1970
+Los Angeles,2019Q2,7,1230
+Los Angeles,2019Q2,8,871
+Los Angeles,2019Q2,6,830
+Los Angeles,2019Q3,1,89052
+Los Angeles,2019Q3,2,20328
+Los Angeles,2019Q3,5,17170
+Los Angeles,2019Q3,3,10824
+Los Angeles,2019Q3,4,2310
+Los Angeles,2019Q3,7,1533
+Los Angeles,2019Q3,8,975
+Los Angeles,2019Q3,6,920
+Los Angeles,2019Q4,1,79619
+Los Angeles,2019Q4,2,17838
+Los Angeles,2019Q4,5,16573
+Los Angeles,2019Q4,3,9495
+Los Angeles,2019Q4,4,2162
+Los Angeles,2019Q4,7,1923
+Los Angeles,2019Q4,8,875
+Los Angeles,2019Q4,6,752
+Los Angeles,2020Q1,1,45267
+Los Angeles,2020Q1,2,9912
+Los Angeles,2020Q1,5,8648
+Los Angeles,2020Q1,3,5187
+Los Angeles,2020Q1,4,1098
+Los Angeles,2020Q1,7,937
+Los Angeles,2020Q1,8,503
+Los Angeles,2020Q1,6,431
+Los Angeles,2020Q2,1,18551
+Los Angeles,2020Q2,5,3692
+Los Angeles,2020Q2,2,3557
+Los Angeles,2020Q2,3,1683
+Los Angeles,2020Q2,4,372
+Los Angeles,2020Q2,8,269
+Los Angeles,2020Q2,6,157
+Los Angeles,2020Q2,7,143
+Los Angeles,2020Q3,1,37859
+Los Angeles,2020Q3,2,7885
+Los Angeles,2020Q3,5,7428
+Los Angeles,2020Q3,3,3572
+Los Angeles,2020Q3,4,749
+Los Angeles,2020Q3,8,585
+Los Angeles,2020Q3,6,343
+Los Angeles,2020Q3,7,282
+Los Angeles,2020Q4,1,34715
+Los Angeles,2020Q4,2,7252
+Los Angeles,2020Q4,5,6965
+Los Angeles,2020Q4,3,3402
+Los Angeles,2020Q4,4,779
+Los Angeles,2020Q4,8,472
+Los Angeles,2020Q4,6,337
+Los Angeles,2020Q4,7,291
+Los Angeles,2021Q1,1,10362
+Los Angeles,2021Q1,2,2127
+Los Angeles,2021Q1,5,2059
+Los Angeles,2021Q1,3,993
+Los Angeles,2021Q1,4,239
+Los Angeles,2021Q1,8,124
+Los Angeles,2021Q1,6,115
+Los Angeles,2021Q1,7,102
+NY City & vicinity,2018Q1,1,77336
+NY City & vicinity,2018Q1,2,25261
+NY City & vicinity,2018Q1,3,11775
+NY City & vicinity,2018Q1,5,10106
+NY City & vicinity,2018Q1,7,3612
+NY City & vicinity,2018Q1,6,1218
+NY City & vicinity,2018Q1,4,1056
+NY City & vicinity,2018Q1,8,441
+NY City & vicinity,2018Q2,1,112785
+NY City & vicinity,2018Q2,2,36644
+NY City & vicinity,2018Q2,3,18006
+NY City & vicinity,2018Q2,5,15303
+NY City & vicinity,2018Q2,7,4884
+NY City & vicinity,2018Q2,4,1653
+NY City & vicinity,2018Q2,6,1555
+NY City & vicinity,2018Q2,8,627
+NY City & vicinity,2018Q3,1,121455
+NY City & vicinity,2018Q3,2,37982
+NY City & vicinity,2018Q3,3,18854
+NY City & vicinity,2018Q3,5,18524
+NY City & vicinity,2018Q3,7,4739
+NY City & vicinity,2018Q3,4,2102
+NY City & vicinity,2018Q3,6,1806
+NY City & vicinity,2018Q3,8,749
+NY City & vicinity,2018Q4,1,122938
+NY City & vicinity,2018Q4,2,37974
+NY City & vicinity,2018Q4,5,18771
+NY City & vicinity,2018Q4,3,18624
+NY City & vicinity,2018Q4,7,3570
+NY City & vicinity,2018Q4,4,2021
+NY City & vicinity,2018Q4,6,1747
+NY City & vicinity,2018Q4,8,747
+NY City & vicinity,2019Q1,1,90080
+NY City & vicinity,2019Q1,2,26472
+NY City & vicinity,2019Q1,5,13943
+NY City & vicinity,2019Q1,3,12588
+NY City & vicinity,2019Q1,7,2677
+NY City & vicinity,2019Q1,4,1460
+NY City & vicinity,2019Q1,6,1211
+NY City & vicinity,2019Q1,8,537
+NY City & vicinity,2019Q2,1,119470
+NY City & vicinity,2019Q2,2,36076
+NY City & vicinity,2019Q2,5,18983
+NY City & vicinity,2019Q2,3,18297
+NY City & vicinity,2019Q2,7,3484
+NY City & vicinity,2019Q2,4,2121
+NY City & vicinity,2019Q2,6,1529
+NY City & vicinity,2019Q2,8,757
+NY City & vicinity,2019Q3,1,118275
+NY City & vicinity,2019Q3,2,35488
+NY City & vicinity,2019Q3,5,18673
+NY City & vicinity,2019Q3,3,18031
+NY City & vicinity,2019Q3,7,3438
+NY City & vicinity,2019Q3,4,2191
+NY City & vicinity,2019Q3,6,1495
+NY City & vicinity,2019Q3,8,744
+NY City & vicinity,2019Q4,1,119179
+NY City & vicinity,2019Q4,2,35352
+NY City & vicinity,2019Q4,5,18843
+NY City & vicinity,2019Q4,3,17809
+NY City & vicinity,2019Q4,7,3156
+NY City & vicinity,2019Q4,4,2195
+NY City & vicinity,2019Q4,6,1409
+NY City & vicinity,2019Q4,8,724
+NY City & vicinity,2020Q1,1,65033
+NY City & vicinity,2020Q1,2,17813
+NY City & vicinity,2020Q1,5,11302
+NY City & vicinity,2020Q1,3,8821
+NY City & vicinity,2020Q1,7,2319
+NY City & vicinity,2020Q1,4,1193
+NY City & vicinity,2020Q1,6,725
+NY City & vicinity,2020Q1,8,427
+NY City & vicinity,2020Q2,1,11641
+NY City & vicinity,2020Q2,5,2758
+NY City & vicinity,2020Q2,2,2442
+NY City & vicinity,2020Q2,3,907
+NY City & vicinity,2020Q2,4,274
+NY City & vicinity,2020Q2,8,112
+NY City & vicinity,2020Q2,7,104
+NY City & vicinity,2020Q2,6,65
+NY City & vicinity,2020Q3,1,23016
+NY City & vicinity,2020Q3,5,5349
+NY City & vicinity,2020Q3,2,5288
+NY City & vicinity,2020Q3,3,2258
+NY City & vicinity,2020Q3,4,556
+NY City & vicinity,2020Q3,8,236
+NY City & vicinity,2020Q3,7,217
+NY City & vicinity,2020Q3,6,149
+NY City & vicinity,2020Q4,1,22667
+NY City & vicinity,2020Q4,2,5393
+NY City & vicinity,2020Q4,5,5142
+NY City & vicinity,2020Q4,3,2284
+NY City & vicinity,2020Q4,4,499
+NY City & vicinity,2020Q4,7,190
+NY City & vicinity,2020Q4,6,185
+NY City & vicinity,2020Q4,8,181
+NY City & vicinity,2021Q1,1,7478
+NY City & vicinity,2021Q1,2,1853
+NY City & vicinity,2021Q1,5,1625
+NY City & vicinity,2021Q1,3,739
+NY City & vicinity,2021Q1,4,182
+NY City & vicinity,2021Q1,8,68
+NY City & vicinity,2021Q1,7,58
+NY City & vicinity,2021Q1,6,49
+Boston & vicinity,2018Q1,1,20629
+Boston & vicinity,2018Q1,2,6389
+Boston & vicinity,2018Q1,3,2882
+Boston & vicinity,2018Q1,5,2735
+Boston & vicinity,2018Q1,7,548
+Boston & vicinity,2018Q1,6,342
+Boston & vicinity,2018Q1,4,293
+Boston & vicinity,2018Q1,8,146
+Boston & vicinity,2018Q2,1,33212
+Boston & vicinity,2018Q2,2,10107
+Boston & vicinity,2018Q2,3,5344
+Boston & vicinity,2018Q2,5,4545
+Boston & vicinity,2018Q2,7,728
+Boston & vicinity,2018Q2,6,668
+Boston & vicinity,2018Q2,4,529
+Boston & vicinity,2018Q2,8,276
+Boston & vicinity,2018Q3,1,42470
+Boston & vicinity,2018Q3,2,13010
+Boston & vicinity,2018Q3,5,6646
+Boston & vicinity,2018Q3,3,6593
+Boston & vicinity,2018Q3,6,930
+Boston & vicinity,2018Q3,7,835
+Boston & vicinity,2018Q3,4,827
+Boston & vicinity,2018Q3,8,355
+Boston & vicinity,2018Q4,1,32243
+Boston & vicinity,2018Q4,2,9303
+Boston & vicinity,2018Q4,5,5570
+Boston & vicinity,2018Q4,3,4697
+Boston & vicinity,2018Q4,4,661
+Boston & vicinity,2018Q4,6,530
+Boston & vicinity,2018Q4,7,527
+Boston & vicinity,2018Q4,8,277
+Boston & vicinity,2019Q1,1,17550
+Boston & vicinity,2019Q1,2,4811
+Boston & vicinity,2019Q1,5,2566
+Boston & vicinity,2019Q1,3,2465
+Boston & vicinity,2019Q1,7,342
+Boston & vicinity,2019Q1,6,316
+Boston & vicinity,2019Q1,4,265
+Boston & vicinity,2019Q1,8,144
+Boston & vicinity,2019Q2,1,29471
+Boston & vicinity,2019Q2,2,8337
+Boston & vicinity,2019Q2,5,4605
+Boston & vicinity,2019Q2,3,4332
+Boston & vicinity,2019Q2,4,583
+Boston & vicinity,2019Q2,6,532
+Boston & vicinity,2019Q2,7,483
+Boston & vicinity,2019Q2,8,253
+Boston & vicinity,2019Q3,1,36129
+Boston & vicinity,2019Q3,2,10279
+Boston & vicinity,2019Q3,3,5388
+Boston & vicinity,2019Q3,5,5353
+Boston & vicinity,2019Q3,4,701
+Boston & vicinity,2019Q3,6,686
+Boston & vicinity,2019Q3,7,657
+Boston & vicinity,2019Q3,8,366
+Boston & vicinity,2019Q4,1,25822
+Boston & vicinity,2019Q4,2,7051
+Boston & vicinity,2019Q4,5,4193
+Boston & vicinity,2019Q4,3,3656
+Boston & vicinity,2019Q4,4,536
+Boston & vicinity,2019Q4,6,490
+Boston & vicinity,2019Q4,7,459
+Boston & vicinity,2019Q4,8,212
+Boston & vicinity,2020Q1,1,11036
+Boston & vicinity,2020Q1,2,2894
+Boston & vicinity,2020Q1,5,1623
+Boston & vicinity,2020Q1,3,1371
+Boston & vicinity,2020Q1,7,216
+Boston & vicinity,2020Q1,6,174
+Boston & vicinity,2020Q1,4,173
+Boston & vicinity,2020Q1,8,95
+Boston & vicinity,2020Q2,1,3808
+Boston & vicinity,2020Q2,5,784
+Boston & vicinity,2020Q2,2,768
+Boston & vicinity,2020Q2,3,396
+Boston & vicinity,2020Q2,4,75
+Boston & vicinity,2020Q2,8,58
+Boston & vicinity,2020Q2,6,53
+Boston & vicinity,2020Q2,7,30
+Boston & vicinity,2020Q3,1,13029
+Boston & vicinity,2020Q3,2,3384
+Boston & vicinity,2020Q3,5,2291
+Boston & vicinity,2020Q3,3,1726
+Boston & vicinity,2020Q3,6,242
+Boston & vicinity,2020Q3,4,217
+Boston & vicinity,2020Q3,8,205
+Boston & vicinity,2020Q3,7,149
+Boston & vicinity,2020Q4,1,8168
+Boston & vicinity,2020Q4,2,2028
+Boston & vicinity,2020Q4,5,1459
+Boston & vicinity,2020Q4,3,1026
+Boston & vicinity,2020Q4,4,170
+Boston & vicinity,2020Q4,8,99
+Boston & vicinity,2020Q4,6,97
+Boston & vicinity,2020Q4,7,53
+Boston & vicinity,2021Q1,1,3953
+Boston & vicinity,2021Q1,2,958
+Boston & vicinity,2021Q1,5,672
+Boston & vicinity,2021Q1,3,406
+Boston & vicinity,2021Q1,4,75
+Boston & vicinity,2021Q1,6,53
+Boston & vicinity,2021Q1,7,36
+Boston & vicinity,2021Q1,8,33
+Nashville,2018Q1,1,20983
+Nashville,2018Q1,2,5878
+Nashville,2018Q1,3,3290
+Nashville,2018Q1,5,2412
+Nashville,2018Q1,6,268
+Nashville,2018Q1,4,238
+Nashville,2018Q1,7,217
+Nashville,2018Q1,8,168
+Nashville,2018Q2,1,30353
+Nashville,2018Q2,2,8433
+Nashville,2018Q2,3,4999
+Nashville,2018Q2,5,3642
+Nashville,2018Q2,4,404
+Nashville,2018Q2,6,364
+Nashville,2018Q2,7,320
+Nashville,2018Q2,8,220
+Nashville,2018Q3,1,34413
+Nashville,2018Q3,2,9141
+Nashville,2018Q3,3,5289
+Nashville,2018Q3,5,4533
+Nashville,2018Q3,4,534
+Nashville,2018Q3,6,456
+Nashville,2018Q3,7,328
+Nashville,2018Q3,8,302
+Nashville,2018Q4,1,29929
+Nashville,2018Q4,2,7746
+Nashville,2018Q4,3,4753
+Nashville,2018Q4,5,4458
+Nashville,2018Q4,4,502
+Nashville,2018Q4,6,307
+Nashville,2018Q4,7,260
+Nashville,2018Q4,8,240
+Nashville,2019Q1,1,27132
+Nashville,2019Q1,2,7051
+Nashville,2019Q1,3,4195
+Nashville,2019Q1,5,3952
+Nashville,2019Q1,4,439
+Nashville,2019Q1,6,310
+Nashville,2019Q1,8,262
+Nashville,2019Q1,7,215
+Nashville,2019Q2,1,36123
+Nashville,2019Q2,2,9508
+Nashville,2019Q2,3,5822
+Nashville,2019Q2,5,5254
+Nashville,2019Q2,4,593
+Nashville,2019Q2,6,448
+Nashville,2019Q2,8,347
+Nashville,2019Q2,7,302
+Nashville,2019Q3,1,38632
+Nashville,2019Q3,2,10074
+Nashville,2019Q3,3,6077
+Nashville,2019Q3,5,5569
+Nashville,2019Q3,4,711
+Nashville,2019Q3,6,413
+Nashville,2019Q3,8,400
+Nashville,2019Q3,7,300
+Nashville,2019Q4,1,33564
+Nashville,2019Q4,2,8479
+Nashville,2019Q4,3,5415
+Nashville,2019Q4,5,5093
+Nashville,2019Q4,4,678
+Nashville,2019Q4,6,348
+Nashville,2019Q4,8,345
+Nashville,2019Q4,7,318
+Nashville,2020Q1,1,19819
+Nashville,2020Q1,2,4735
+Nashville,2020Q1,3,2816
+Nashville,2020Q1,5,2711
+Nashville,2020Q1,4,355
+Nashville,2020Q1,7,268
+Nashville,2020Q1,8,197
+Nashville,2020Q1,6,188
+Nashville,2020Q2,1,6105
+Nashville,2020Q2,2,1261
+Nashville,2020Q2,5,1069
+Nashville,2020Q2,3,726
+Nashville,2020Q2,4,119
+Nashville,2020Q2,8,83
+Nashville,2020Q2,6,47
+Nashville,2020Q2,7,39
+Nashville,2020Q3,1,14907
+Nashville,2020Q3,2,3348
+Nashville,2020Q3,5,2381
+Nashville,2020Q3,3,1913
+Nashville,2020Q3,4,291
+Nashville,2020Q3,8,207
+Nashville,2020Q3,6,121
+Nashville,2020Q3,7,99
+Nashville,2020Q4,1,16365
+Nashville,2020Q4,2,3816
+Nashville,2020Q4,5,2763
+Nashville,2020Q4,3,2308
+Nashville,2020Q4,4,336
+Nashville,2020Q4,8,223
+Nashville,2020Q4,6,147
+Nashville,2020Q4,7,112
+Nashville,2021Q1,1,7113
+Nashville,2021Q1,2,1452
+Nashville,2021Q1,5,1070
+Nashville,2021Q1,3,827
+Nashville,2021Q1,4,131
+Nashville,2021Q1,8,81
+Nashville,2021Q1,6,62
+Nashville,2021Q1,7,48
+New Orleans,2018Q1,1,24982
+New Orleans,2018Q1,2,7374
+New Orleans,2018Q1,3,3504
+New Orleans,2018Q1,5,2508
+New Orleans,2018Q1,7,393
+New Orleans,2018Q1,6,392
+New Orleans,2018Q1,4,261
+New Orleans,2018Q1,8,184
+New Orleans,2018Q2,1,27435
+New Orleans,2018Q2,2,8333
+New Orleans,2018Q2,3,4068
+New Orleans,2018Q2,5,2749
+New Orleans,2018Q2,6,466
+New Orleans,2018Q2,7,361
+New Orleans,2018Q2,4,315
+New Orleans,2018Q2,8,165
+New Orleans,2018Q3,1,25012
+New Orleans,2018Q3,2,6727
+New Orleans,2018Q3,3,3378
+New Orleans,2018Q3,5,2817
+New Orleans,2018Q3,4,324
+New Orleans,2018Q3,7,304
+New Orleans,2018Q3,6,298
+New Orleans,2018Q3,8,134
+New Orleans,2018Q4,1,29193
+New Orleans,2018Q4,2,7997
+New Orleans,2018Q4,3,4138
+New Orleans,2018Q4,5,3714
+New Orleans,2018Q4,4,462
+New Orleans,2018Q4,7,435
+New Orleans,2018Q4,6,412
+New Orleans,2018Q4,8,170
+New Orleans,2019Q1,1,30869
+New Orleans,2019Q1,2,8479
+New Orleans,2019Q1,3,4261
+New Orleans,2019Q1,5,3834
+New Orleans,2019Q1,4,475
+New Orleans,2019Q1,6,437
+New Orleans,2019Q1,7,403
+New Orleans,2019Q1,8,213
+New Orleans,2019Q2,1,30378
+New Orleans,2019Q2,2,8383
+New Orleans,2019Q2,3,4368
+New Orleans,2019Q2,5,3741
+New Orleans,2019Q2,6,456
+New Orleans,2019Q2,4,433
+New Orleans,2019Q2,7,325
+New Orleans,2019Q2,8,215
+New Orleans,2019Q3,1,25008
+New Orleans,2019Q3,2,6514
+New Orleans,2019Q3,3,3296
+New Orleans,2019Q3,5,3078
+New Orleans,2019Q3,4,334
+New Orleans,2019Q3,7,303
+New Orleans,2019Q3,6,300
+New Orleans,2019Q3,8,181
+New Orleans,2019Q4,1,30494
+New Orleans,2019Q4,2,7757
+New Orleans,2019Q4,3,4143
+New Orleans,2019Q4,5,4088
+New Orleans,2019Q4,4,552
+New Orleans,2019Q4,7,454
+New Orleans,2019Q4,6,402
+New Orleans,2019Q4,8,193
+New Orleans,2020Q1,1,23264
+New Orleans,2020Q1,2,5975
+New Orleans,2020Q1,5,3184
+New Orleans,2020Q1,3,3151
+New Orleans,2020Q1,4,361
+New Orleans,2020Q1,7,339
+New Orleans,2020Q1,6,277
+New Orleans,2020Q1,8,172
+New Orleans,2020Q2,1,2889
+New Orleans,2020Q2,5,556
+New Orleans,2020Q2,2,547
+New Orleans,2020Q2,3,231
+New Orleans,2020Q2,4,67
+New Orleans,2020Q2,7,28
+New Orleans,2020Q2,8,27
+New Orleans,2020Q2,6,15
+New Orleans,2020Q3,1,7619
+New Orleans,2020Q3,2,1622
+New Orleans,2020Q3,5,1239
+New Orleans,2020Q3,3,810
+New Orleans,2020Q3,4,143
+New Orleans,2020Q3,8,60
+New Orleans,2020Q3,7,46
+New Orleans,2020Q3,6,40
+New Orleans,2020Q4,1,9763
+New Orleans,2020Q4,2,2285
+New Orleans,2020Q4,5,1707
+New Orleans,2020Q4,3,1157
+New Orleans,2020Q4,4,202
+New Orleans,2020Q4,8,88
+New Orleans,2020Q4,7,79
+New Orleans,2020Q4,6,55
+New Orleans,2021Q1,1,4107
+New Orleans,2021Q1,2,986
+New Orleans,2021Q1,5,645
+New Orleans,2021Q1,3,528
+New Orleans,2021Q1,4,81
+New Orleans,2021Q1,7,31
+New Orleans,2021Q1,6,29
+New Orleans,2021Q1,8,26
+Portland/Salem,2018Q1,1,13974
+Portland/Salem,2018Q1,2,3968
+Portland/Salem,2018Q1,3,2070
+Portland/Salem,2018Q1,5,1430
+Portland/Salem,2018Q1,6,252
+Portland/Salem,2018Q1,4,237
+Portland/Salem,2018Q1,7,151
+Portland/Salem,2018Q1,8,113
+Portland/Salem,2018Q2,1,20077
+Portland/Salem,2018Q2,2,5882
+Portland/Salem,2018Q2,3,3096
+Portland/Salem,2018Q2,5,2081
+Portland/Salem,2018Q2,4,352
+Portland/Salem,2018Q2,6,345
+Portland/Salem,2018Q2,7,225
+Portland/Salem,2018Q2,8,151
+Portland/Salem,2018Q3,1,26884
+Portland/Salem,2018Q3,2,7733
+Portland/Salem,2018Q3,3,4023
+Portland/Salem,2018Q3,5,3244
+Portland/Salem,2018Q3,4,528
+Portland/Salem,2018Q3,6,514
+Portland/Salem,2018Q3,7,286
+Portland/Salem,2018Q3,8,204
+Portland/Salem,2018Q4,1,18665
+Portland/Salem,2018Q4,2,4913
+Portland/Salem,2018Q4,3,2548
+Portland/Salem,2018Q4,5,2360
+Portland/Salem,2018Q4,4,411
+Portland/Salem,2018Q4,6,283
+Portland/Salem,2018Q4,7,146
+Portland/Salem,2018Q4,8,145
+Portland/Salem,2019Q1,1,18199
+Portland/Salem,2019Q1,2,4795
+Portland/Salem,2019Q1,3,2627
+Portland/Salem,2019Q1,5,2427
+Portland/Salem,2019Q1,4,408
+Portland/Salem,2019Q1,6,255
+Portland/Salem,2019Q1,7,220
+Portland/Salem,2019Q1,8,157
+Portland/Salem,2019Q2,1,25500
+Portland/Salem,2019Q2,2,6967
+Portland/Salem,2019Q2,3,3737
+Portland/Salem,2019Q2,5,3328
+Portland/Salem,2019Q2,4,512
+Portland/Salem,2019Q2,6,408
+Portland/Salem,2019Q2,7,282
+Portland/Salem,2019Q2,8,216
+Portland/Salem,2019Q3,1,31738
+Portland/Salem,2019Q3,2,8646
+Portland/Salem,2019Q3,3,4934
+Portland/Salem,2019Q3,5,4178
+Portland/Salem,2019Q3,4,683
+Portland/Salem,2019Q3,6,462
+Portland/Salem,2019Q3,7,316
+Portland/Salem,2019Q3,8,276
+Portland/Salem,2019Q4,1,21242
+Portland/Salem,2019Q4,2,5517
+Portland/Salem,2019Q4,3,3145
+Portland/Salem,2019Q4,5,2818
+Portland/Salem,2019Q4,4,512
+Portland/Salem,2019Q4,7,268
+Portland/Salem,2019Q4,6,250
+Portland/Salem,2019Q4,8,195
+Portland/Salem,2020Q1,1,12118
+Portland/Salem,2020Q1,2,3117
+Portland/Salem,2020Q1,3,1675
+Portland/Salem,2020Q1,5,1659
+Portland/Salem,2020Q1,4,266
+Portland/Salem,2020Q1,6,179
+Portland/Salem,2020Q1,7,167
+Portland/Salem,2020Q1,8,106
+Portland/Salem,2020Q2,1,4293
+Portland/Salem,2020Q2,2,852
+Portland/Salem,2020Q2,5,632
+Portland/Salem,2020Q2,3,464
+Portland/Salem,2020Q2,4,119
+Portland/Salem,2020Q2,8,52
+Portland/Salem,2020Q2,6,46
+Portland/Salem,2020Q2,7,34
+Portland/Salem,2020Q3,1,11317
+Portland/Salem,2020Q3,2,2743
+Portland/Salem,2020Q3,5,1540
+Portland/Salem,2020Q3,3,1442
+Portland/Salem,2020Q3,4,264
+Portland/Salem,2020Q3,6,161
+Portland/Salem,2020Q3,8,114
+Portland/Salem,2020Q3,7,62
+Portland/Salem,2020Q4,1,9229
+Portland/Salem,2020Q4,2,2241
+Portland/Salem,2020Q4,5,1357
+Portland/Salem,2020Q4,3,1209
+Portland/Salem,2020Q4,4,236
+Portland/Salem,2020Q4,6,131
+Portland/Salem,2020Q4,8,103
+Portland/Salem,2020Q4,7,56
+Portland/Salem,2021Q1,1,4255
+Portland/Salem,2021Q1,2,1016
+Portland/Salem,2021Q1,5,614
+Portland/Salem,2021Q1,3,549
+Portland/Salem,2021Q1,4,112
+Portland/Salem,2021Q1,6,57
+Portland/Salem,2021Q1,8,46
+Portland/Salem,2021Q1,7,33
+SF Bay Area,2018Q1,1,42138
+SF Bay Area,2018Q1,2,13118
+SF Bay Area,2018Q1,3,5811
+SF Bay Area,2018Q1,5,5366
+SF Bay Area,2018Q1,7,800
+SF Bay Area,2018Q1,6,762
+SF Bay Area,2018Q1,4,761
+SF Bay Area,2018Q1,8,336
+SF Bay Area,2018Q2,1,55137
+SF Bay Area,2018Q2,2,16644
+SF Bay Area,2018Q2,3,7576
+SF Bay Area,2018Q2,5,7377
+SF Bay Area,2018Q2,7,1048
+SF Bay Area,2018Q2,4,1014
+SF Bay Area,2018Q2,6,955
+SF Bay Area,2018Q2,8,422
+SF Bay Area,2018Q3,1,63070
+SF Bay Area,2018Q3,2,19106
+SF Bay Area,2018Q3,5,9041
+SF Bay Area,2018Q3,3,8634
+SF Bay Area,2018Q3,4,1331
+SF Bay Area,2018Q3,7,1023
+SF Bay Area,2018Q3,6,951
+SF Bay Area,2018Q3,8,495
+SF Bay Area,2018Q4,1,54959
+SF Bay Area,2018Q4,2,15689
+SF Bay Area,2018Q4,5,8715
+SF Bay Area,2018Q4,3,7181
+SF Bay Area,2018Q4,4,1304
+SF Bay Area,2018Q4,6,803
+SF Bay Area,2018Q4,7,766
+SF Bay Area,2018Q4,8,415
+SF Bay Area,2019Q1,1,49679
+SF Bay Area,2019Q1,2,13777
+SF Bay Area,2019Q1,5,8168
+SF Bay Area,2019Q1,3,6449
+SF Bay Area,2019Q1,4,1170
+SF Bay Area,2019Q1,6,823
+SF Bay Area,2019Q1,7,758
+SF Bay Area,2019Q1,8,447
+SF Bay Area,2019Q2,1,59563
+SF Bay Area,2019Q2,2,16599
+SF Bay Area,2019Q2,5,9731
+SF Bay Area,2019Q2,3,8167
+SF Bay Area,2019Q2,4,1444
+SF Bay Area,2019Q2,6,892
+SF Bay Area,2019Q2,7,860
+SF Bay Area,2019Q2,8,466
+SF Bay Area,2019Q3,1,65411
+SF Bay Area,2019Q3,2,18216
+SF Bay Area,2019Q3,5,10413
+SF Bay Area,2019Q3,3,8878
+SF Bay Area,2019Q3,4,1597
+SF Bay Area,2019Q3,6,926
+SF Bay Area,2019Q3,7,887
+SF Bay Area,2019Q3,8,549
+SF Bay Area,2019Q4,1,58074
+SF Bay Area,2019Q4,2,15772
+SF Bay Area,2019Q4,5,9975
+SF Bay Area,2019Q4,3,7807
+SF Bay Area,2019Q4,4,1527
+SF Bay Area,2019Q4,7,877
+SF Bay Area,2019Q4,6,827
+SF Bay Area,2019Q4,8,497
+SF Bay Area,2020Q1,1,32682
+SF Bay Area,2020Q1,2,8707
+SF Bay Area,2020Q1,5,5317
+SF Bay Area,2020Q1,3,4149
+SF Bay Area,2020Q1,4,715
+SF Bay Area,2020Q1,7,631
+SF Bay Area,2020Q1,6,454
+SF Bay Area,2020Q1,8,287
+SF Bay Area,2020Q2,1,7783
+SF Bay Area,2020Q2,2,1610
+SF Bay Area,2020Q2,5,1595
+SF Bay Area,2020Q2,3,784
+SF Bay Area,2020Q2,4,210
+SF Bay Area,2020Q2,8,102
+SF Bay Area,2020Q2,6,100
+SF Bay Area,2020Q2,7,98
+SF Bay Area,2020Q3,1,18584
+SF Bay Area,2020Q3,2,4401
+SF Bay Area,2020Q3,5,3394
+SF Bay Area,2020Q3,3,1998
+SF Bay Area,2020Q3,4,430
+SF Bay Area,2020Q3,6,263
+SF Bay Area,2020Q3,8,205
+SF Bay Area,2020Q3,7,171
+SF Bay Area,2020Q4,1,18616
+SF Bay Area,2020Q4,2,4677
+SF Bay Area,2020Q4,5,3150
+SF Bay Area,2020Q4,3,1989
+SF Bay Area,2020Q4,4,416
+SF Bay Area,2020Q4,6,265
+SF Bay Area,2020Q4,7,186
+SF Bay Area,2020Q4,8,178
+SF Bay Area,2021Q1,1,8558
+SF Bay Area,2021Q1,2,2035
+SF Bay Area,2021Q1,5,1434
+SF Bay Area,2021Q1,3,828
+SF Bay Area,2021Q1,4,204
+SF Bay Area,2021Q1,6,106
+SF Bay Area,2021Q1,8,98
+SF Bay Area,2021Q1,7,89
+San Diego,2018Q1,1,28708
+San Diego,2018Q1,2,9115
+San Diego,2018Q1,3,4520
+San Diego,2018Q1,5,3793
+San Diego,2018Q1,7,770
+San Diego,2018Q1,6,531
+San Diego,2018Q1,4,413
+San Diego,2018Q1,8,287
+San Diego,2018Q2,1,33616
+San Diego,2018Q2,2,10444
+San Diego,2018Q2,3,5244
+San Diego,2018Q2,5,4241
+San Diego,2018Q2,7,765
+San Diego,2018Q2,6,726
+San Diego,2018Q2,4,390
+San Diego,2018Q2,8,379
+San Diego,2018Q3,1,41744
+San Diego,2018Q3,2,12175
+San Diego,2018Q3,3,5863
+San Diego,2018Q3,5,5772
+San Diego,2018Q3,6,842
+San Diego,2018Q3,7,724
+San Diego,2018Q3,4,614
+San Diego,2018Q3,8,433
+San Diego,2018Q4,1,32285
+San Diego,2018Q4,2,9507
+San Diego,2018Q4,5,5134
+San Diego,2018Q4,3,4857
+San Diego,2018Q4,6,605
+San Diego,2018Q4,7,589
+San Diego,2018Q4,4,548
+San Diego,2018Q4,8,319
+San Diego,2019Q1,1,32764
+San Diego,2019Q1,2,9383
+San Diego,2019Q1,5,5101
+San Diego,2019Q1,3,4797
+San Diego,2019Q1,6,612
+San Diego,2019Q1,4,539
+San Diego,2019Q1,7,523
+San Diego,2019Q1,8,356
+San Diego,2019Q2,1,40748
+San Diego,2019Q2,2,11175
+San Diego,2019Q2,5,6393
+San Diego,2019Q2,3,6056
+San Diego,2019Q2,6,738
+San Diego,2019Q2,7,641
+San Diego,2019Q2,4,637
+San Diego,2019Q2,8,449
+San Diego,2019Q3,1,47310
+San Diego,2019Q3,2,13278
+San Diego,2019Q3,5,7373
+San Diego,2019Q3,3,6865
+San Diego,2019Q3,6,819
+San Diego,2019Q3,4,801
+San Diego,2019Q3,7,716
+San Diego,2019Q3,8,494
+San Diego,2019Q4,1,37266
+San Diego,2019Q4,2,10332
+San Diego,2019Q4,5,6158
+San Diego,2019Q4,3,5523
+San Diego,2019Q4,4,638
+San Diego,2019Q4,7,618
+San Diego,2019Q4,6,522
+San Diego,2019Q4,8,440
+San Diego,2020Q1,1,23781
+San Diego,2020Q1,2,6816
+San Diego,2020Q1,5,3864
+San Diego,2020Q1,3,3636
+San Diego,2020Q1,7,414
+San Diego,2020Q1,4,395
+San Diego,2020Q1,6,379
+San Diego,2020Q1,8,304
+San Diego,2020Q2,1,11725
+San Diego,2020Q2,2,2848
+San Diego,2020Q2,5,2213
+San Diego,2020Q2,3,1373
+San Diego,2020Q2,8,218
+San Diego,2020Q2,4,216
+San Diego,2020Q2,6,146
+San Diego,2020Q2,7,122
+San Diego,2020Q3,1,26248
+San Diego,2020Q3,2,7107
+San Diego,2020Q3,5,4499
+San Diego,2020Q3,3,3501
+San Diego,2020Q3,6,445
+San Diego,2020Q3,8,440
+San Diego,2020Q3,4,422
+San Diego,2020Q3,7,274
+San Diego,2020Q4,1,21004
+San Diego,2020Q4,2,5718
+San Diego,2020Q4,5,3822
+San Diego,2020Q4,3,2741
+San Diego,2020Q4,8,376
+San Diego,2020Q4,4,356
+San Diego,2020Q4,6,331
+San Diego,2020Q4,7,205
+San Diego,2021Q1,1,9273
+San Diego,2021Q1,2,2423
+San Diego,2021Q1,5,1597
+San Diego,2021Q1,3,1142
+San Diego,2021Q1,4,159
+San Diego,2021Q1,8,154
+San Diego,2021Q1,6,138
+San Diego,2021Q1,7,84
+Santa Cruz & vicinity,2018Q1,1,4662
+Santa Cruz & vicinity,2018Q1,2,1077
+Santa Cruz & vicinity,2018Q1,3,653
+Santa Cruz & vicinity,2018Q1,5,561
+Santa Cruz & vicinity,2018Q1,6,131
+Santa Cruz & vicinity,2018Q1,7,127
+Santa Cruz & vicinity,2018Q1,8,107
+Santa Cruz & vicinity,2018Q1,4,87
+Santa Cruz & vicinity,2018Q2,1,6640
+Santa Cruz & vicinity,2018Q2,2,1595
+Santa Cruz & vicinity,2018Q2,3,871
+Santa Cruz & vicinity,2018Q2,5,805
+Santa Cruz & vicinity,2018Q2,6,187
+Santa Cruz & vicinity,2018Q2,8,154
+Santa Cruz & vicinity,2018Q2,7,139
+Santa Cruz & vicinity,2018Q2,4,111
+Santa Cruz & vicinity,2018Q3,1,8893
+Santa Cruz & vicinity,2018Q3,2,1999
+Santa Cruz & vicinity,2018Q3,3,1238
+Santa Cruz & vicinity,2018Q3,5,1165
+Santa Cruz & vicinity,2018Q3,6,226
+Santa Cruz & vicinity,2018Q3,8,200
+Santa Cruz & vicinity,2018Q3,7,177
+Santa Cruz & vicinity,2018Q3,4,161
+Santa Cruz & vicinity,2018Q4,1,5479
+Santa Cruz & vicinity,2018Q4,2,1275
+Santa Cruz & vicinity,2018Q4,5,748
+Santa Cruz & vicinity,2018Q4,3,684
+Santa Cruz & vicinity,2018Q4,6,131
+Santa Cruz & vicinity,2018Q4,8,123
+Santa Cruz & vicinity,2018Q4,4,105
+Santa Cruz & vicinity,2018Q4,7,93
+Santa Cruz & vicinity,2019Q1,1,4916
+Santa Cruz & vicinity,2019Q1,2,1147
+Santa Cruz & vicinity,2019Q1,5,702
+Santa Cruz & vicinity,2019Q1,3,631
+Santa Cruz & vicinity,2019Q1,6,136
+Santa Cruz & vicinity,2019Q1,8,122
+Santa Cruz & vicinity,2019Q1,4,96
+Santa Cruz & vicinity,2019Q1,7,93
+Santa Cruz & vicinity,2019Q2,1,7574
+Santa Cruz & vicinity,2019Q2,2,1725
+Santa Cruz & vicinity,2019Q2,5,1016
+Santa Cruz & vicinity,2019Q2,3,990
+Santa Cruz & vicinity,2019Q2,6,179
+Santa Cruz & vicinity,2019Q2,8,177
+Santa Cruz & vicinity,2019Q2,4,167
+Santa Cruz & vicinity,2019Q2,7,119
+Santa Cruz & vicinity,2019Q3,1,8975
+Santa Cruz & vicinity,2019Q3,2,2066
+Santa Cruz & vicinity,2019Q3,5,1251
+Santa Cruz & vicinity,2019Q3,3,1208
+Santa Cruz & vicinity,2019Q3,6,243
+Santa Cruz & vicinity,2019Q3,8,185
+Santa Cruz & vicinity,2019Q3,4,172
+Santa Cruz & vicinity,2019Q3,7,135
+Santa Cruz & vicinity,2019Q4,1,5670
+Santa Cruz & vicinity,2019Q4,2,1313
+Santa Cruz & vicinity,2019Q4,5,820
+Santa Cruz & vicinity,2019Q4,3,746
+Santa Cruz & vicinity,2019Q4,6,130
+Santa Cruz & vicinity,2019Q4,4,121
+Santa Cruz & vicinity,2019Q4,8,119
+Santa Cruz & vicinity,2019Q4,7,113
+Santa Cruz & vicinity,2020Q1,1,3459
+Santa Cruz & vicinity,2020Q1,2,789
+Santa Cruz & vicinity,2020Q1,5,458
+Santa Cruz & vicinity,2020Q1,3,433
+Santa Cruz & vicinity,2020Q1,8,88
+Santa Cruz & vicinity,2020Q1,7,84
+Santa Cruz & vicinity,2020Q1,6,73
+Santa Cruz & vicinity,2020Q1,4,68
+Santa Cruz & vicinity,2020Q2,1,1829
+Santa Cruz & vicinity,2020Q2,2,382
+Santa Cruz & vicinity,2020Q2,5,243
+Santa Cruz & vicinity,2020Q2,3,207
+Santa Cruz & vicinity,2020Q2,6,44
+Santa Cruz & vicinity,2020Q2,8,43
+Santa Cruz & vicinity,2020Q2,4,22
+Santa Cruz & vicinity,2020Q2,7,13
+Santa Cruz & vicinity,2020Q3,1,4819
+Santa Cruz & vicinity,2020Q3,2,1167
+Santa Cruz & vicinity,2020Q3,5,699
+Santa Cruz & vicinity,2020Q3,3,574
+Santa Cruz & vicinity,2020Q3,6,142
+Santa Cruz & vicinity,2020Q3,8,107
+Santa Cruz & vicinity,2020Q3,4,69
+Santa Cruz & vicinity,2020Q3,7,56
+Santa Cruz & vicinity,2020Q4,1,4551
+Santa Cruz & vicinity,2020Q4,2,1117
+Santa Cruz & vicinity,2020Q4,5,657
+Santa Cruz & vicinity,2020Q4,3,635
+Santa Cruz & vicinity,2020Q4,6,121
+Santa Cruz & vicinity,2020Q4,8,111
+Santa Cruz & vicinity,2020Q4,4,91
+Santa Cruz & vicinity,2020Q4,7,58
+Santa Cruz & vicinity,2021Q1,1,2306
+Santa Cruz & vicinity,2021Q1,2,534
+Santa Cruz & vicinity,2021Q1,5,278
+Santa Cruz & vicinity,2021Q1,3,274
+Santa Cruz & vicinity,2021Q1,6,46
+Santa Cruz & vicinity,2021Q1,8,46
+Santa Cruz & vicinity,2021Q1,4,39
+Santa Cruz & vicinity,2021Q1,7,18
+Seattle,2018Q1,1,19105
+Seattle,2018Q1,2,5915
+Seattle,2018Q1,3,3152
+Seattle,2018Q1,5,2770
+Seattle,2018Q1,7,408
+Seattle,2018Q1,4,355
+Seattle,2018Q1,6,279
+Seattle,2018Q1,8,142
+Seattle,2018Q2,1,28908
+Seattle,2018Q2,2,9157
+Seattle,2018Q2,3,5106
+Seattle,2018Q2,5,3971
+Seattle,2018Q2,4,509
+Seattle,2018Q2,7,497
+Seattle,2018Q2,6,449
+Seattle,2018Q2,8,209
+Seattle,2018Q3,1,39636
+Seattle,2018Q3,2,12387
+Seattle,2018Q3,3,6882
+Seattle,2018Q3,5,5999
+Seattle,2018Q3,4,842
+Seattle,2018Q3,6,665
+Seattle,2018Q3,7,557
+Seattle,2018Q3,8,328
+Seattle,2018Q4,1,22921
+Seattle,2018Q4,2,6747
+Seattle,2018Q4,5,3914
+Seattle,2018Q4,3,3846
+Seattle,2018Q4,4,494
+Seattle,2018Q4,6,350
+Seattle,2018Q4,7,336
+Seattle,2018Q4,8,214
+Seattle,2019Q1,1,17565
+Seattle,2019Q1,2,5022
+Seattle,2019Q1,5,2771
+Seattle,2019Q1,3,2649
+Seattle,2019Q1,4,358
+Seattle,2019Q1,6,230
+Seattle,2019Q1,7,201
+Seattle,2019Q1,8,161
+Seattle,2019Q2,1,26104
+Seattle,2019Q2,2,7860
+Seattle,2019Q2,3,4226
+Seattle,2019Q2,5,4073
+Seattle,2019Q2,4,593
+Seattle,2019Q2,6,379
+Seattle,2019Q2,7,289
+Seattle,2019Q2,8,206
+Seattle,2019Q3,1,34255
+Seattle,2019Q3,2,10315
+Seattle,2019Q3,3,5824
+Seattle,2019Q3,5,5331
+Seattle,2019Q3,4,796
+Seattle,2019Q3,6,517
+Seattle,2019Q3,7,421
+Seattle,2019Q3,8,250
+Seattle,2019Q4,1,21213
+Seattle,2019Q4,2,6100
+Seattle,2019Q4,5,3614
+Seattle,2019Q4,3,3442
+Seattle,2019Q4,4,494
+Seattle,2019Q4,6,316
+Seattle,2019Q4,7,275
+Seattle,2019Q4,8,178
+Seattle,2020Q1,1,9078
+Seattle,2020Q1,2,2578
+Seattle,2020Q1,3,1415
+Seattle,2020Q1,5,1410
+Seattle,2020Q1,4,189
+Seattle,2020Q1,7,117
+Seattle,2020Q1,6,93
+Seattle,2020Q1,8,81
+Seattle,2020Q2,1,2746
+Seattle,2020Q2,2,638
+Seattle,2020Q2,5,422
+Seattle,2020Q2,3,311
+Seattle,2020Q2,4,63
+Seattle,2020Q2,6,34
+Seattle,2020Q2,8,32
+Seattle,2020Q2,7,23
+Seattle,2020Q3,1,7628
+Seattle,2020Q3,2,2050
+Seattle,2020Q3,5,1272
+Seattle,2020Q3,3,1094
+Seattle,2020Q3,4,154
+Seattle,2020Q3,6,106
+Seattle,2020Q3,8,72
+Seattle,2020Q3,7,70
+Seattle,2020Q4,1,7207
+Seattle,2020Q4,2,2015
+Seattle,2020Q4,5,1149
+Seattle,2020Q4,3,1027
+Seattle,2020Q4,4,164
+Seattle,2020Q4,6,106
+Seattle,2020Q4,8,84
+Seattle,2020Q4,7,65
+Seattle,2021Q1,1,3240
+Seattle,2021Q1,2,838
+Seattle,2021Q1,5,539
+Seattle,2021Q1,3,442
+Seattle,2021Q1,4,81
+Seattle,2021Q1,6,42
+Seattle,2021Q1,8,37
+Seattle,2021Q1,7,34
+Twin Cities,2018Q1,1,10364
+Twin Cities,2018Q1,2,2338
+Twin Cities,2018Q1,3,1288
+Twin Cities,2018Q1,5,1183
+Twin Cities,2018Q1,7,330
+Twin Cities,2018Q1,6,176
+Twin Cities,2018Q1,4,153
+Twin Cities,2018Q1,8,74
+Twin Cities,2018Q2,1,13459
+Twin Cities,2018Q2,2,3361
+Twin Cities,2018Q2,3,1782
+Twin Cities,2018Q2,5,1576
+Twin Cities,2018Q2,7,267
+Twin Cities,2018Q2,6,215
+Twin Cities,2018Q2,4,185
+Twin Cities,2018Q2,8,93
+Twin Cities,2018Q3,1,17557
+Twin Cities,2018Q3,2,4389
+Twin Cities,2018Q3,3,2585
+Twin Cities,2018Q3,5,2261
+Twin Cities,2018Q3,6,292
+Twin Cities,2018Q3,4,283
+Twin Cities,2018Q3,7,259
+Twin Cities,2018Q3,8,151
+Twin Cities,2018Q4,1,12878
+Twin Cities,2018Q4,2,3124
+Twin Cities,2018Q4,5,1869
+Twin Cities,2018Q4,3,1743
+Twin Cities,2018Q4,4,265
+Twin Cities,2018Q4,6,167
+Twin Cities,2018Q4,7,164
+Twin Cities,2018Q4,8,98
+Twin Cities,2019Q1,1,10622
+Twin Cities,2019Q1,2,2268
+Twin Cities,2019Q1,5,1466
+Twin Cities,2019Q1,3,1324
+Twin Cities,2019Q1,6,179
+Twin Cities,2019Q1,4,178
+Twin Cities,2019Q1,7,121
+Twin Cities,2019Q1,8,80
+Twin Cities,2019Q2,1,15414
+Twin Cities,2019Q2,2,3571
+Twin Cities,2019Q2,5,2229
+Twin Cities,2019Q2,3,2124
+Twin Cities,2019Q2,4,370
+Twin Cities,2019Q2,6,225
+Twin Cities,2019Q2,7,194
+Twin Cities,2019Q2,8,115
+Twin Cities,2019Q3,1,18789
+Twin Cities,2019Q3,2,4449
+Twin Cities,2019Q3,5,2683
+Twin Cities,2019Q3,3,2660
+Twin Cities,2019Q3,4,405
+Twin Cities,2019Q3,7,257
+Twin Cities,2019Q3,6,256
+Twin Cities,2019Q3,8,180
+Twin Cities,2019Q4,1,13703
+Twin Cities,2019Q4,2,3111
+Twin Cities,2019Q4,5,2198
+Twin Cities,2019Q4,3,1943
+Twin Cities,2019Q4,4,341
+Twin Cities,2019Q4,7,166
+Twin Cities,2019Q4,6,150
+Twin Cities,2019Q4,8,125
+Twin Cities,2020Q1,1,7088
+Twin Cities,2020Q1,2,1493
+Twin Cities,2020Q1,5,1083
+Twin Cities,2020Q1,3,972
+Twin Cities,2020Q1,4,204
+Twin Cities,2020Q1,6,97
+Twin Cities,2020Q1,7,89
+Twin Cities,2020Q1,8,60
+Twin Cities,2020Q2,1,3054
+Twin Cities,2020Q2,2,597
+Twin Cities,2020Q2,5,597
+Twin Cities,2020Q2,3,308
+Twin Cities,2020Q2,4,80
+Twin Cities,2020Q2,8,45
+Twin Cities,2020Q2,6,33
+Twin Cities,2020Q2,7,31
+Twin Cities,2020Q3,1,7061
+Twin Cities,2020Q3,2,1503
+Twin Cities,2020Q3,5,1119
+Twin Cities,2020Q3,3,809
+Twin Cities,2020Q3,4,155
+Twin Cities,2020Q3,6,111
+Twin Cities,2020Q3,8,93
+Twin Cities,2020Q3,7,74
+Twin Cities,2020Q4,1,5627
+Twin Cities,2020Q4,2,1222
+Twin Cities,2020Q4,5,964
+Twin Cities,2020Q4,3,621
+Twin Cities,2020Q4,4,161
+Twin Cities,2020Q4,8,75
+Twin Cities,2020Q4,6,65
+Twin Cities,2020Q4,7,51
+Twin Cities,2021Q1,1,2642
+Twin Cities,2021Q1,2,544
+Twin Cities,2021Q1,5,485
+Twin Cities,2021Q1,3,265
+Twin Cities,2021Q1,4,68
+Twin Cities,2021Q1,6,42
+Twin Cities,2021Q1,8,42
+Twin Cities,2021Q1,7,22
+Washington DC,2018Q1,1,20032
+Washington DC,2018Q1,2,6029
+Washington DC,2018Q1,3,3345
+Washington DC,2018Q1,5,2815
+Washington DC,2018Q1,7,563
+Washington DC,2018Q1,4,301
+Washington DC,2018Q1,6,292
+Washington DC,2018Q1,8,115
+Washington DC,2018Q2,1,28415
+Washington DC,2018Q2,2,9263
+Washington DC,2018Q2,3,4857
+Washington DC,2018Q2,5,4068
+Washington DC,2018Q2,7,585
+Washington DC,2018Q2,6,502
+Washington DC,2018Q2,4,415
+Washington DC,2018Q2,8,189
+Washington DC,2018Q3,1,26140
+Washington DC,2018Q3,2,7941
+Washington DC,2018Q3,3,4054
+Washington DC,2018Q3,5,3818
+Washington DC,2018Q3,7,457
+Washington DC,2018Q3,6,438
+Washington DC,2018Q3,4,431
+Washington DC,2018Q3,8,164
+Washington DC,2018Q4,1,24293
+Washington DC,2018Q4,2,7016
+Washington DC,2018Q4,5,4050
+Washington DC,2018Q4,3,3886
+Washington DC,2018Q4,4,442
+Washington DC,2018Q4,7,374
+Washington DC,2018Q4,6,349
+Washington DC,2018Q4,8,141
+Washington DC,2019Q1,1,20363
+Washington DC,2019Q1,2,5805
+Washington DC,2019Q1,5,3262
+Washington DC,2019Q1,3,2994
+Washington DC,2019Q1,4,360
+Washington DC,2019Q1,6,323
+Washington DC,2019Q1,7,274
+Washington DC,2019Q1,8,124
+Washington DC,2019Q2,1,30895
+Washington DC,2019Q2,2,9151
+Washington DC,2019Q2,3,5001
+Washington DC,2019Q2,5,4912
+Washington DC,2019Q2,4,549
+Washington DC,2019Q2,6,518
+Washington DC,2019Q2,7,440
+Washington DC,2019Q2,8,193
+Washington DC,2019Q3,1,27638
+Washington DC,2019Q3,2,8087
+Washington DC,2019Q3,5,4332
+Washington DC,2019Q3,3,4317
+Washington DC,2019Q3,4,527
+Washington DC,2019Q3,7,388
+Washington DC,2019Q3,6,375
+Washington DC,2019Q3,8,179
+Washington DC,2019Q4,1,25164
+Washington DC,2019Q4,2,7151
+Washington DC,2019Q4,5,4237
+Washington DC,2019Q4,3,4002
+Washington DC,2019Q4,4,487
+Washington DC,2019Q4,7,425
+Washington DC,2019Q4,6,348
+Washington DC,2019Q4,8,160
+Washington DC,2020Q1,1,13675
+Washington DC,2020Q1,2,3756
+Washington DC,2020Q1,5,2161
+Washington DC,2020Q1,3,1996
+Washington DC,2020Q1,7,281
+Washington DC,2020Q1,4,237
+Washington DC,2020Q1,6,196
+Washington DC,2020Q1,8,79
+Washington DC,2020Q2,1,2835
+Washington DC,2020Q2,2,625
+Washington DC,2020Q2,5,582
+Washington DC,2020Q2,3,267
+Washington DC,2020Q2,4,52
+Washington DC,2020Q2,7,26
+Washington DC,2020Q2,8,26
+Washington DC,2020Q2,6,23
+Washington DC,2020Q3,1,8083
+Washington DC,2020Q3,2,2041
+Washington DC,2020Q3,5,1499
+Washington DC,2020Q3,3,942
+Washington DC,2020Q3,4,149
+Washington DC,2020Q3,6,77
+Washington DC,2020Q3,7,62
+Washington DC,2020Q3,8,58
+Washington DC,2020Q4,1,8235
+Washington DC,2020Q4,2,2181
+Washington DC,2020Q4,5,1456
+Washington DC,2020Q4,3,1114
+Washington DC,2020Q4,4,152
+Washington DC,2020Q4,6,75
+Washington DC,2020Q4,7,65
+Washington DC,2020Q4,8,54
+Washington DC,2021Q1,1,3353
+Washington DC,2021Q1,2,904
+Washington DC,2021Q1,5,579
+Washington DC,2021Q1,3,350
+Washington DC,2021Q1,4,49
+Washington DC,2021Q1,8,32
+Washington DC,2021Q1,7,27
+Washington DC,2021Q1,6,26
